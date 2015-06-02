@@ -16,8 +16,13 @@
 
 #header{
     padding-bottom:20px;
-    border-bottom-color: #dddddd;
+    border-bottom-color: #ddd;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     margin-bottom:20px;
+}
+
+.headline{
+    font-size:2em;
+    color:#999
 }

@@ -36,42 +36,51 @@ var pouAll = cf.groupAll().reduceSum(function(d){ return d.pou; });
 var bloodydiaAll = cf.groupAll().reduceSum(function(d){ return d.bloody_dia; });
 
 var xScaleRange = d3.time.scale().domain([new Date(2015, 4, 1), new Date(2015, 5, 1)]);
-var xScale = d3.time.scale().domain([new Date(2015, 4, 1), new Date(2015, 5, 1)]);
 
 timecount_chart
-        .width($('#timecount').width())
+        .width($('#time_count').width())
         .height(150)
         .dimension(dateDimension)
         .group(dateGroup)
-        .x(xScaleRange);
+        .x(xScaleRange)
+        .xAxisLabel("Date")
+        .yAxisLabel("Cases")
+        .xAxis().ticks(8);
 
 timestats1_chart
-        .width($('#timestats').width())
+        .width($('#time_stats').width())
         .height(200)
         .dimension(dateDimension)
-        .x(xScale)
+        .x(d3.time.scale().domain([new Date(2015, 4, 1), new Date(2015, 5, 1)]))
         .rangeChart(timecount_chart)
         .elasticY(true)
-        .margins({top: 10, right: 50, bottom: 60, left: 30})
         .compose([
-            dc.lineChart(timestats1_chart).group(deathsGroup).colors(colors[0]),
-            dc.lineChart(timestats1_chart).group(traumaGroup).colors(colors[1]),            
-        ]);
+            dc.lineChart(timestats1_chart).group(deathsGroup,'Deaths').colors(colors[0]),
+            dc.lineChart(timestats1_chart).group(traumaGroup,'Trauma').colors(colors[1]),            
+        ])
+        .brushOn(false)
+        .xAxisLabel("Date")
+        .yAxisLabel("Cases")
+        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .xAxis().ticks(8);
         
 timestats2_chart
-        .width($('#timestats').width())
+        .width($('#time_stats').width())
         .height(200)
         .dimension(dateDimension)
-        .x(xScale)
-        .rangeChart(timecount_chart)
+        .x(d3.time.scale().domain([new Date(2015, 4, 1), new Date(2015, 5, 1)]))
         .elasticY(true)
-        .margins({top: 10, right: 50, bottom: 60, left: 30})
         .compose([
-            dc.lineChart(timestats2_chart).group(ariGroup).colors(colors[2]),
-            dc.lineChart(timestats2_chart).group(awdGroup).colors(colors[3]),
-            dc.lineChart(timestats2_chart).group(bloodydiaGroup).colors(colors[4]),
-            dc.lineChart(timestats2_chart).group(pouGroup).colors(colors[5])            
-        ]);         
+            dc.lineChart(timestats2_chart).group(ariGroup, 'ARI').colors(colors[2]),
+            dc.lineChart(timestats2_chart).group(awdGroup, 'AWD').colors(colors[3]),
+            dc.lineChart(timestats2_chart).group(bloodydiaGroup, 'Bloody Diarrhea').colors(colors[4]),
+            dc.lineChart(timestats2_chart).group(pouGroup, 'PUO').colors(colors[5])            
+        ])
+        .brushOn(false)
+        .xAxisLabel("Date")
+        .yAxisLabel("Cases")
+        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .xAxis().ticks(8);
         
 org_chart.width($('#rc_org').width()).height(300)
         .dimension(orgDimension)
@@ -105,102 +114,47 @@ dc.dataCount('#poutotal')
 	.dimension(cf)
 	.group(pouAll);
 
+    function rangesEqual(range1, range2) {
+        if (!range1 && !range2) {
+            return true;
+        }
+        else if (!range1 || !range2) {
+            return false;
+        }
+        else if (range1.length === 0 && range2.length === 0) {
+            return true;
+        }
+        else if (range1[0].valueOf() === range2[0].valueOf() &&
+            range1[1].valueOf() === range2[1].valueOf()) {
+            return true;
+        }
+        return false;
+    }
+    // monkey-patch the first chart with a new function
+    // technically we don't even need to do this, we could just change the 'filtered'
+    // event externally, but this is a bit nicer and could be added to dc.js core someday
+    timecount_chart.focusCharts = function (chartlist) {
+        if (!arguments.length) {
+            return this._focusCharts;
+        }
+        this._focusCharts = chartlist; // only needed to support the getter above
+        this.on('filtered', function (range_chart) {
+            if (!range_chart.filter()) {
+                dc.events.trigger(function () {
+                    chartlist.forEach(function(focus_chart) {
+                        focus_chart.x().domain(focus_chart.xOriginalDomain());
+                    });
+                });
+            } else chartlist.forEach(function(focus_chart) {
+                if (!rangesEqual(range_chart.filter(), focus_chart.filter())) {
+                    dc.events.trigger(function () {
+                        focus_chart.focus(range_chart.filter());
+                    });
+                }
+            });
+        });
+        return this;
+    };
+    timecount_chart.focusCharts([timestats1_chart,timestats2_chart]);
+
 dc.renderAll();
-
-var svg = d3.select('#time_stats').select("svg");
-
-var g = svg.append("g");
-
-    g.append("rect")
-        .attr("x", 10)
-        .attr("y", 170)
-        .attr("width", 10)
-        .attr("height", 10)
-        .attr("fill",colors[0])
-        .attr("class","legend");
-
-    g.append("text")
-        .attr("x",25)
-        .attr("y",178)
-        .text("Deaths")
-        .attr("font-size","10px")
-        .attr("class","legend");
-
-    g.append("rect")
-        .attr("x", 110)
-        .attr("y", 170)
-        .attr("width", 10)
-        .attr("height", 10)
-        .attr("fill",colors[1])
-        .attr("class","legend");
-
-    g.append("text")
-        .attr("x",125)
-        .attr("y",178)
-        .text("Trauma")
-        .attr("font-size","10px")
-        .attr("class","legend");
-
-var svg = d3.select('#time_stats2').select("svg");
-
-var g = svg.append("g");
-
-    g.append("rect")
-        .attr("x", 10)
-        .attr("y", 170)
-        .attr("width", 10)
-        .attr("height", 10)
-        .attr("fill",colors[2])
-        .attr("class","legend");
-
-    g.append("text")
-        .attr("x",25)
-        .attr("y",178)
-        .text("ARI")
-        .attr("font-size","10px")
-        .attr("class","legend");
-
-    g.append("rect")
-        .attr("x", 110)
-        .attr("y", 170)
-        .attr("width", 10)
-        .attr("height", 10)
-        .attr("fill",colors[3])
-        .attr("class","legend");
-
-    g.append("text")
-        .attr("x",125)
-        .attr("y",178)
-        .text("AWD")
-        .attr("font-size","10px")
-        .attr("class","legend");
-
-    g.append("rect")
-        .attr("x", 10)
-        .attr("y", 190)
-        .attr("width", 10)
-        .attr("height", 10)
-        .attr("fill",colors[4])
-        .attr("class","legend");
-
-    g.append("text")
-        .attr("x",25)
-        .attr("y",198)
-        .text("Bloody Diarrhea")
-        .attr("font-size","10px")
-        .attr("class","legend");
-
-    g.append("rect")
-        .attr("x", 110)
-        .attr("y", 190)
-        .attr("width", 10)
-        .attr("height", 10)
-        .attr("fill",colors[5])
-        .attr("class","legend");
-
-    g.append("text")
-        .attr("x",125)
-        .attr("y",198)
-        .text("PUO")
-        .attr("font-size","10px")
-        .attr("class","legend");
