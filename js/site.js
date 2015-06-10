@@ -84,7 +84,8 @@ timestats2_chart
         
 org_chart.width($('#rc_org').width()).height(300)
         .dimension(orgDimension)
-        .group(orgGroup);
+        .group(orgGroup)
+        .xAxis().ticks(8);
 
 under5_chart.width($('#age').width()).height(200)
         .dimension(under5Dimension)
