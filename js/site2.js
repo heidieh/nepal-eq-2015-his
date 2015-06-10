@@ -47,7 +47,8 @@ timecount_chart
         .stack(ipdGroup,"In patients",function(d){
             return d.value;
         })
-        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5));
+        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .xAxis().ticks(8);
 
 timesurgery_chart
         .width($('#time_count').width())
@@ -65,7 +66,8 @@ timesurgery_chart
             return d.value;
         })        
         .brushOn(false)
-        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5));
+        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .xAxis().ticks(8);
 
 timebirths_chart
         .width($('#time_count').width())
@@ -77,7 +79,8 @@ timebirths_chart
         .elasticY(true)
         .renderArea(true)        
         .brushOn(false)
-        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5));
+        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .xAxis().ticks(8);
 
 timestaff_chart
         .width($('#time_count').width())
@@ -92,11 +95,13 @@ timestaff_chart
             return d.value;
         })  
         .brushOn(false)
-        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5));
+        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .xAxis().ticks(8);
 
 org_chart.width($('#rc_org').width()).height(300)
         .dimension(orgDimension)
-        .group(orgGroup);
+        .group(orgGroup)
+        .xAxis().ticks(8);
 
 dc.dataCount('#outtotal')
 	.dimension(cf)
