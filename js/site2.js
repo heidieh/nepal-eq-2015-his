@@ -1,4 +1,5 @@
 var colors = ['#F44336','#673AB7','#009688','#FFEB3B','#FF9800','#9E9E9E'];  
+var scale_maxDate = new Date(2015, 5, 22);
 
 var timecount_chart = dc.lineChart("#time_count");
 var timesurgery_chart = dc.lineChart("#time_surgery");
@@ -43,7 +44,7 @@ timecount_chart
         .dimension(dateDimension)
         .group(opdGroup, "Out Patients")
         .renderArea(true)
-        .x(d3.time.scale().domain([new Date(2015, 4, 1), new Date(2015, 5, 7)]))
+        .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
         .stack(ipdGroup,"In patients",function(d){
             return d.value;
         })
@@ -55,7 +56,7 @@ timesurgery_chart
         .height(150)
         .dimension(dateDimension)
         .group(referredGroup,"Referred")
-        .x(d3.time.scale().domain([new Date(2015, 4, 1), new Date(2015, 5, 7)]))
+        .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
         .rangeChart(timecount_chart)
         .elasticY(true)
         .renderArea(true)       
@@ -74,7 +75,7 @@ timebirths_chart
         .height(150)
         .dimension(dateDimension)
         .group(birthsGroup, 'Births')
-        .x(d3.time.scale().domain([new Date(2015, 4, 1), new Date(2015, 5, 7)]))
+        .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
         .rangeChart(timecount_chart)
         .elasticY(true)
         .renderArea(true)        
@@ -87,7 +88,7 @@ timestaff_chart
         .height(150)
         .dimension(dateDimension)
         .group(referredGroup,'National Staff')
-        .x(d3.time.scale().domain([new Date(2015, 4, 1), new Date(2015, 5, 7)]))
+        .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
         .rangeChart(timecount_chart)
         .elasticY(true)
         .renderArea(true)       
