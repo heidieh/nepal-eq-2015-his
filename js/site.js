@@ -1,4 +1,5 @@
 var colors = ['#F44336','#673AB7','#009688','#FFEB3B','#FF9800','#9E9E9E'];  
+var scale_maxDate =new Date(2015, 5, 22);
 
 var timecount_chart = dc.lineChart("#time_count");
 var timestats1_chart = dc.compositeChart("#time_stats");
@@ -35,7 +36,7 @@ var awdAll = cf.groupAll().reduceSum(function(d){ return d.awd; });
 var pouAll = cf.groupAll().reduceSum(function(d){ return d.pou; });
 var bloodydiaAll = cf.groupAll().reduceSum(function(d){ return d.bloody_dia; });
 
-var xScaleRange = d3.time.scale().domain([new Date(2015, 4, 1), new Date(2015, 5, 7)]);
+var xScaleRange = d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]);
 
 timecount_chart
         .width($('#time_count').width())
@@ -51,7 +52,7 @@ timestats1_chart
         .width($('#time_stats').width())
         .height(200)
         .dimension(dateDimension)
-        .x(d3.time.scale().domain([new Date(2015, 4, 1), new Date(2015, 5, 7)]))
+        .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
         .rangeChart(timecount_chart)
         .elasticY(true)
         .compose([
@@ -68,7 +69,7 @@ timestats2_chart
         .width($('#time_stats').width())
         .height(200)
         .dimension(dateDimension)
-        .x(d3.time.scale().domain([new Date(2015, 4, 1), new Date(2015, 5, 7)]))
+        .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
         .elasticY(true)
         .compose([
             dc.lineChart(timestats2_chart).group(ariGroup, 'ARI').colors(colors[2]),
