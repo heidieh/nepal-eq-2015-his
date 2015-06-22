@@ -1,5 +1,159 @@
 var data = [
   {
+    "date":"2015-06-21",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":0,
+    "ari":1,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":2,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-22",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":0,
+    "ari":3,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-21",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":3,
+    "ari":1,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":7,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-20",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-20",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":2,
+    "ari":1,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-20",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-11",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":5,
+    "ari":1,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":5,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-12",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":5,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-19",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":0,
+    "ari":2,
+    "awd":0,
+    "bloody_dia":3,
+    "pou":1,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-18",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":1,
+    "ari":3,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-19",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":1,
+    "ari":2,
+    "awd":3,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-16",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":0,
+    "ari":2,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-17",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":0,
+    "ari":2,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-18",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":0,
+    "ari":2,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
     "date":"2015-06-03",
     "rc":"Japanese",
     "deaths":0,
@@ -19,28 +173,6 @@ var data = [
     "awd":0,
     "bloody_dia":0,
     "pou":2,
-    "Under_5":"Yes"
-  },
-  {
-    "date":"2015-06-18",
-    "rc":"Japanese",
-    "deaths":0,
-    "trauma":1,
-    "ari":3,
-    "awd":0,
-    "bloody_dia":0,
-    "pou":1,
-    "Under_5":"Yes"
-  },
-  {
-    "date":"2015-06-16",
-    "rc":"Unit_1",
-    "deaths":0,
-    "trauma":0,
-    "ari":2,
-    "awd":2,
-    "bloody_dia":0,
-    "pou":1,
     "Under_5":"Yes"
   },
   {
@@ -188,7 +320,7 @@ var data = [
   },
   {
     "date":"2015-06-13",
-    "rc":"No data",
+    "rc":"No_data",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -199,7 +331,7 @@ var data = [
   },
   {
     "date":"2015-06-12",
-    "rc":"No data",
+    "rc":"No_data",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -1309,6 +1441,160 @@ var data = [
     "Under_5":"Yes"
   },
   {
+    "date":"2015-06-21",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":0,
+    "ari":13,
+    "awd":2,
+    "bloody_dia":3,
+    "pou":4,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-22",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":0,
+    "ari":2,
+    "awd":0,
+    "bloody_dia":2,
+    "pou":1,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-21",
+    "rc":"NorCross",
+    "deaths":1,
+    "trauma":16,
+    "ari":8,
+    "awd":5,
+    "bloody_dia":0,
+    "pou":3,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-20",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":1,
+    "ari":1,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-20",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":13,
+    "ari":6,
+    "awd":4,
+    "bloody_dia":0,
+    "pou":2,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-20",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-11",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":5,
+    "ari":4,
+    "awd":1,
+    "bloody_dia":1,
+    "pou":8,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-12",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":11,
+    "ari":0,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":2,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-19",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":0,
+    "ari":2,
+    "awd":0,
+    "bloody_dia":2,
+    "pou":2,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-18",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":32,
+    "ari":12,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":3,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-19",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":31,
+    "ari":3,
+    "awd":3,
+    "bloody_dia":0,
+    "pou":3,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-16",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":4,
+    "bloody_dia":1,
+    "pou":0,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-17",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":1,
+    "ari":5,
+    "awd":2,
+    "bloody_dia":1,
+    "pou":1,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-18",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":1,
+    "ari":1,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":4,
+    "Under_5":"No"
+  },
+  {
     "date":"2015-06-03",
     "rc":"Japanese",
     "deaths":0,
@@ -1328,28 +1614,6 @@ var data = [
     "awd":2,
     "bloody_dia":0,
     "pou":10,
-    "Under_5":"No"
-  },
-  {
-    "date":"2015-06-18",
-    "rc":"Japanese",
-    "deaths":0,
-    "trauma":32,
-    "ari":12,
-    "awd":1,
-    "bloody_dia":0,
-    "pou":3,
-    "Under_5":"No"
-  },
-  {
-    "date":"2015-06-16",
-    "rc":"Unit_1",
-    "deaths":0,
-    "trauma":0,
-    "ari":0,
-    "awd":4,
-    "bloody_dia":1,
-    "pou":0,
     "Under_5":"No"
   },
   {
@@ -1497,7 +1761,7 @@ var data = [
   },
   {
     "date":"2015-06-13",
-    "rc":"No data",
+    "rc":"No_data",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -1508,7 +1772,7 @@ var data = [
   },
   {
     "date":"2015-06-12",
-    "rc":"No data",
+    "rc":"No_data",
     "deaths":0,
     "trauma":5,
     "ari":0,
