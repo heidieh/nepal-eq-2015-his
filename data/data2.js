@@ -1,5 +1,29 @@
 var data = [
   {
+    "Date":"2015-06-22",
+    "RC_Org":"Japanese",
+    "OPD":173,
+    "IPD":0,
+    "referred":1,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":16,
+    "Number_of_national_staff":10
+  },
+  {
+    "Date":"2015-06-21",
+    "RC_Org":"Japanese",
+    "OPD":199,
+    "IPD":0,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":4,
+    "Number_of_births":0,
+    "Number_of_international_staff":15,
+    "Number_of_national_staff":8
+  },
+  {
     "Date":"2015-06-21",
     "RC_Org":"Unit_1",
     "OPD":100,
@@ -142,6 +166,18 @@ var data = [
     "Number_of_births":1,
     "Number_of_international_staff":28,
     "Number_of_national_staff":29
+  },
+  {
+    "Date":"2015-06-17",
+    "RC_Org":"Unit_1",
+    "OPD":32,
+    "IPD":2,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":0,
+    "Number_of_national_staff":0
   },
   {
     "Date":"2015-06-17",
