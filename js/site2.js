@@ -48,8 +48,10 @@ timecount_chart
         .stack(ipdGroup,"In patients",function(d){
             return d.value;
         })
+        .yAxisLabel("",5)
         .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
         .xAxis().ticks(8);
+timecount_chart.yAxis().ticks(6);
 
 timesurgery_chart
         .width($('#time_count').width())
@@ -82,6 +84,7 @@ timebirths_chart
         .brushOn(false)
         .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
         .xAxis().ticks(8);
+timebirths_chart.yAxis().ticks(5);
 
 timestaff_chart
         .width($('#time_count').width())
@@ -98,6 +101,7 @@ timestaff_chart
         .brushOn(false)
         .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
         .xAxis().ticks(8);
+timestaff_chart.yAxis().ticks(6);
 
 org_chart.width($('#rc_org').width()).height(300)
         .dimension(orgDimension)
