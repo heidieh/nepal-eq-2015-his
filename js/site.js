@@ -47,6 +47,7 @@ timecount_chart
         .xAxisLabel("Date")
         .yAxisLabel("Cases")
         .xAxis().ticks(8);
+timecount_chart.yAxis().ticks(8);
 
 timestats1_chart
         .width($('#time_stats').width())
@@ -64,6 +65,7 @@ timestats1_chart
         .yAxisLabel("Cases")
         .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
         .xAxis().ticks(8);
+timestats1_chart.yAxis().ticks(6);
         
 timestats2_chart
         .width($('#time_stats').width())
