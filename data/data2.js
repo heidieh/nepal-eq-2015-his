@@ -1678,5 +1678,29 @@ var data = [
     "Number_of_births":0,
     "Number_of_international_staff":16,
     "Number_of_national_staff":9
+  },
+  {
+    "Date":"2015-06-25",
+    "RC_Org":"Japanese",
+    "OPD":169,
+    "IPD":0,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":5,
+    "Number_of_births":0,
+    "Number_of_international_staff":16,
+    "Number_of_national_staff":10
+  },
+  {
+    "Date":"2015-06-25",
+    "RC_Org":"Unit_1",
+    "OPD":50,
+    "IPD":1,
+    "referred":0,
+    "Surgical_Major":1,
+    "Surgical_Minor":3,
+    "Number_of_births":1,
+    "Number_of_international_staff":18,
+    "Number_of_national_staff":26
   }
 ]
