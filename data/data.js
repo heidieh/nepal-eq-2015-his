@@ -1540,6 +1540,28 @@ var data = [
     "Under_5":"Yes"
   },
   {
+    "date":"2015-06-25",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":2,
+    "ari":4,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":3,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-25",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":0,
+    "ari":3,
+    "awd":3,
+    "bloody_dia":3,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
     "date":"2015-05-05",
     "rc":"NorCross",
     "deaths":0,
@@ -3077,6 +3099,28 @@ var data = [
     "awd":4,
     "bloody_dia":2,
     "pou":9,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-25",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":34,
+    "ari":4,
+    "awd":3,
+    "bloody_dia":2,
+    "pou":12,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-25",
+    "rc":"Unit_1",
+    "deaths":0,
+    "trauma":2,
+    "ari":4,
+    "awd":4,
+    "bloody_dia":3,
+    "pou":1,
     "Under_5":"No"
   }
 ]
