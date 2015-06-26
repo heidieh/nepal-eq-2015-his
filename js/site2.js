@@ -106,7 +106,7 @@ timestaff_chart.yAxis().ticks(6);
 org_chart.width($('#rc_org').width()).height(300)
         .dimension(orgDimension)
         .group(orgGroup)
-        .xAxis().ticks(6);
+        .xAxis().ticks(5);
 
 dc.dataCount('#outtotal')
 	.dimension(cf)
