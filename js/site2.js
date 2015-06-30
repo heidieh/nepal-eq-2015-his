@@ -52,7 +52,7 @@ timecount_chart
 		   //dc.compositeChart(timecount_chart).group(ipdGroup,'In Patients').colors(colors[0]),
            //dc.compositeChart(timecount_chart).group(opdGroup,'Out Patients').colors(colors[1]),
 		])
-		.brushOn(false)
+		//.brushOn(false)
 //		.mouseZoomable(true)
         .yAxisLabel("",5)
         .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
@@ -74,7 +74,7 @@ timesurgery_chart
            //dc.compositeChart(timecount_chart).group(surgicalMinorGroup,'Surgical Minor').colors(colors[1]),
 		   //dc.compositeChart(timecount_chart).group(surgicalMajorGroup,'Surgical Major').colors(colors[2])
 		])     
-        .brushOn(false)
+        //.brushOn(false)
 		//.mouseZoomable(true)
         .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
         .xAxis().ticks(8);
@@ -90,7 +90,7 @@ timebirths_chart
 		   dc.lineChart(timecount_chart).group(birthsGroup,'Births').colors(colors[0]),
 		   //dc.compositeChart(timecount_chart).group(birthsGroup,'Births').colors(colors[0])
 		])     
-        .brushOn(false)
+        //.brushOn(false)
 		//.mouseZoomable(true)
         .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
         .xAxis().ticks(8);
@@ -109,7 +109,7 @@ timestaff_chart
 		   //dc.compositeChart(timecount_chart).group(nationalStaffGroup,'National Staff').colors(colors[0]),
            //dc.compositeChart(timecount_chart).group(internationalStaffGroup,'International Staff').colors(colors[1])
 		])     
-        .brushOn(false)
+        //.brushOn(false)
 		//.mouseZoomable(true)
         .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
         .xAxis().ticks(8);
