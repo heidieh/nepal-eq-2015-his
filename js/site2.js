@@ -42,10 +42,10 @@ timecount_chart
         .width($('#time_count').width())
         .height(150)
         .dimension(dateDimension)
-        .group(opdGroup, "Out Patients")
+        .group(ipdGroup, "In Patients")
         .renderArea(true)
         .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
-        .stack(ipdGroup,"In patients",function(d){
+        .stack(opdGroup,"Out Patients",function(d){
             return d.value;
         })
         .yAxisLabel("",5)
