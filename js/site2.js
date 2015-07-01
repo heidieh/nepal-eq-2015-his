@@ -1,11 +1,10 @@
 var colors = ['#F44336','#673AB7','#009688','#FFEB3B','#FF9800','#9E9E9E'];  
 var scale_maxDate = new Date(2015, 5, 30);
 
-
-var timecount_chart = dc.compositeChart("#time_count");
-var timesurgery_chart = dc.compositeChart("#time_surgery");
-var timebirths_chart = dc.compositeChart("#time_births");
-var timestaff_chart = dc.compositeChart("#time_staff");
+var timecount_chart = dc.lineChart("#time_count");
+var timesurgery_chart = dc.lineChart("#time_surgery");
+var timebirths_chart = dc.lineChart("#time_births");
+var timestaff_chart = dc.lineChart("#time_staff");
 var org_chart = dc.rowChart("#rc_org");
 
     var dateFormat = d3.time.format("%Y-%m-%d");
@@ -27,7 +26,7 @@ var surgicalMinorGroup = dateDimension.group().reduceSum(function(d) {return d.S
 var surgicalMajorGroup = dateDimension.group().reduceSum(function(d) {return d.Surgical_Major;});
 var birthsGroup = dateDimension.group().reduceSum(function(d) {return d.Number_of_births;});
 var internationalStaffGroup = dateDimension.group().reduceSum(function(d) {return d.Number_of_international_staff;});
-var nationalStaffGroup = dateDimension.group().reduceSum(function(d) {return d.Number_of_national_staff;});
+var nationalStaffGroup = orgDimension.group().reduceSum(function(d) {return d.Number_of_national_staff;});
 
 var outAll = cf.groupAll().reduceSum(function(d){ return d.OPD; });
 var inAll = cf.groupAll().reduceSum(function(d){ return d.IPD; });
@@ -43,55 +42,46 @@ timecount_chart
         .width($('#time_count').width())
         .height(150)
         .dimension(dateDimension)
+        .group(ipdGroup, "In Patients")
+        .renderArea(true)
         .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
-		.rangeChart(timecount_chart)
-		.elasticY(true)
-		.compose([
-		   dc.lineChart(timecount_chart).group(ipdGroup,'In Patients').colors(colors[0]),
-           dc.lineChart(timecount_chart).group(opdGroup,'Out Patients').colors(colors[1]),
-		   //dc.compositeChart(timecount_chart).group(ipdGroup,'In Patients').colors(colors[0]),
-           //dc.compositeChart(timecount_chart).group(opdGroup,'Out Patients').colors(colors[1]),
-		])
-		.brushOn(false)
-//		.mouseZoomable(true)
+        .stack(opdGroup,"Out Patients",function(d){
+            return d.value;
+        })
         .yAxisLabel("",5)
         .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
         .xAxis().ticks(8);
 timecount_chart.yAxis().ticks(6);
- 
+
 timesurgery_chart
         .width($('#time_count').width())
         .height(150)
         .dimension(dateDimension)
-		.x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
-		.rangeChart(timecount_chart)
-		//.elasticY(true)
-		.compose([
-		   dc.lineChart(timecount_chart).group(referredGroup,'Referred').colors(colors[1]),
-           dc.lineChart(timecount_chart).group(surgicalMinorGroup,'Surgical Minor').colors(colors[2]),
-		   dc.lineChart(timecount_chart).group(surgicalMajorGroup,'Surgical Major').colors(colors[3])
-		   //dc.compositeChartChart(timecount_chart).group(referredGroup,'Referred').colors(colors[0]),
-           //dc.compositeChart(timecount_chart).group(surgicalMinorGroup,'Surgical Minor').colors(colors[1]),
-		   //dc.compositeChart(timecount_chart).group(surgicalMajorGroup,'Surgical Major').colors(colors[2])
-		])     
+        .group(referredGroup,"Referred")
+        .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
+        .rangeChart(timecount_chart)
+        .elasticY(true)
+        .renderArea(true)       
+        .stack(surgicalMinorGroup,"Surgical Minor",function(d){
+            return d.value;
+        })
+        .stack(surgicalMajorGroup,"Surgical Major",function(d){
+            return d.value;
+        })        
         .brushOn(false)
-		//.mouseZoomable(true)
         .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
         .xAxis().ticks(8);
 
 timebirths_chart
         .width($('#time_count').width())
         .height(150)
-        .dimension(dateDimension)		
-		.x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
-		.rangeChart(timecount_chart)
-		//.elasticY(true)
-		.compose([
-		   dc.lineChart(timecount_chart).group(birthsGroup,'Births').colors(colors[0]),
-		   //dc.compositeChart(timecount_chart).group(birthsGroup,'Births').colors(colors[0])
-		])     
+        .dimension(dateDimension)
+        .group(birthsGroup, 'Births')
+        .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
+        .rangeChart(timecount_chart)
+        .elasticY(true)
+        .renderArea(true)        
         .brushOn(false)
-		//.mouseZoomable(true)
         .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
         .xAxis().ticks(8);
 timebirths_chart.yAxis().ticks(5);
@@ -100,17 +90,15 @@ timestaff_chart
         .width($('#time_count').width())
         .height(150)
         .dimension(dateDimension)
-		.x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
-		.rangeChart(timecount_chart)
-		//.elasticY(true)
-		.compose([
-		   dc.lineChart(timecount_chart).group(nationalStaffGroup,'National Staff').colors(colors[4]),
-           dc.lineChart(timecount_chart).group(internationalStaffGroup,'International Staff').colors(colors[5])
-		   //dc.compositeChart(timecount_chart).group(nationalStaffGroup,'National Staff').colors(colors[0]),
-           //dc.compositeChart(timecount_chart).group(internationalStaffGroup,'International Staff').colors(colors[1])
-		])     
+        .group(referredGroup,'National Staff')
+        .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
+        .rangeChart(timecount_chart)
+        .elasticY(true)
+        .renderArea(true)       
+        .stack(surgicalMinorGroup,'International Staff',function(d){
+            return d.value;
+        })  
         .brushOn(false)
-		//.mouseZoomable(true)
         .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
         .xAxis().ticks(8);
 timestaff_chart.yAxis().ticks(6);
