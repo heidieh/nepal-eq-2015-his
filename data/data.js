@@ -1178,7 +1178,7 @@ var data = [
   },
   {
     "date":"2015-06-12",
-    "rc":"No_data",
+    "rc":"No data",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -1200,7 +1200,7 @@ var data = [
   },
   {
     "date":"2015-06-13",
-    "rc":"No_data",
+    "rc":"No data",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -1647,6 +1647,61 @@ var data = [
     "awd":6,
     "bloody_dia":0,
     "pou":3,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-30",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":0,
+    "ari":1,
+    "awd":4,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-30",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":1,
+    "ari":1,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":5,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-01",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":0,
+    "ari":4,
+    "awd":1,
+    "bloody_dia":2,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-01",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":1,
+    "ari":2,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":3,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-02",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":0,
+    "ari":4,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
     "Under_5":"Yes"
   },
   {
@@ -2828,7 +2883,7 @@ var data = [
   },
   {
     "date":"2015-06-12",
-    "rc":"No_data",
+    "rc":"No data",
     "deaths":0,
     "trauma":5,
     "ari":0,
@@ -2850,7 +2905,7 @@ var data = [
   },
   {
     "date":"2015-06-13",
-    "rc":"No_data",
+    "rc":"No data",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -3297,6 +3352,61 @@ var data = [
     "awd":5,
     "bloody_dia":0,
     "pou":6,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-30",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":3,
+    "ari":3,
+    "awd":0,
+    "bloody_dia":1,
+    "pou":0,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-30",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":32,
+    "ari":6,
+    "awd":4,
+    "bloody_dia":0,
+    "pou":15,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-01",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":2,
+    "ari":1,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":3,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-01",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":20,
+    "ari":6,
+    "awd":3,
+    "bloody_dia":0,
+    "pou":8,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-02",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":5,
+    "ari":4,
+    "awd":5,
+    "bloody_dia":2,
+    "pou":2,
     "Under_5":"No"
   }
 ]
