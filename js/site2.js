@@ -1,5 +1,5 @@
 var colors = ['#F44336','#673AB7','#009688','#FFEB3B','#FF9800','#9E9E9E'];  
-var scale_maxDate = new Date(2015, 5, 30);
+var scale_maxDate = new Date(2015, 6, 02);
 
 var timecount_chart = dc.lineChart("#time_count");
 var timesurgery_chart = dc.lineChart("#time_surgery");
@@ -26,7 +26,7 @@ var surgicalMinorGroup = dateDimension.group().reduceSum(function(d) {return d.S
 var surgicalMajorGroup = dateDimension.group().reduceSum(function(d) {return d.Surgical_Major;});
 var birthsGroup = dateDimension.group().reduceSum(function(d) {return d.Number_of_births;});
 var internationalStaffGroup = dateDimension.group().reduceSum(function(d) {return d.Number_of_international_staff;});
-var nationalStaffGroup = orgDimension.group().reduceSum(function(d) {return d.Number_of_national_staff;});
+var nationalStaffGroup = dateDimension.group().reduceSum(function(d) {return d.Number_of_national_staff;});
 
 var outAll = cf.groupAll().reduceSum(function(d){ return d.OPD; });
 var inAll = cf.groupAll().reduceSum(function(d){ return d.IPD; });
@@ -45,11 +45,11 @@ timecount_chart
         .group(ipdGroup, "In Patients")
         .renderArea(true)
         .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
-        .stack(opdGroup,"Out Patients",function(d){
+        .stack(opdGroup,"In + Out Patients",function(d){
             return d.value;
         })
         .yAxisLabel("",5)
-        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .legend(dc.legend().x($('#time_count').width()-250).y(0).gap(5))
         .xAxis().ticks(8);
 timecount_chart.yAxis().ticks(6);
 
@@ -62,14 +62,14 @@ timesurgery_chart
         .rangeChart(timecount_chart)
         .elasticY(true)
         .renderArea(true)       
-        .stack(surgicalMinorGroup,"Surgical Minor",function(d){
+        .stack(surgicalMinorGroup,"Referred + Surgical Minor",function(d){
             return d.value;
         })
-        .stack(surgicalMajorGroup,"Surgical Major",function(d){
+        .stack(surgicalMajorGroup,"Referred + Surgical Minor + Surgical Major",function(d){
             return d.value;
         })        
         .brushOn(false)
-        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .legend(dc.legend().x($('#time_count').width()-250).y(0).gap(5))
         .xAxis().ticks(8);
 
 timebirths_chart
@@ -82,7 +82,7 @@ timebirths_chart
         .elasticY(true)
         .renderArea(true)        
         .brushOn(false)
-        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .legend(dc.legend().x($('#time_count').width()-250).y(0).gap(5))
         .xAxis().ticks(8);
 timebirths_chart.yAxis().ticks(5);
 
@@ -90,16 +90,16 @@ timestaff_chart
         .width($('#time_count').width())
         .height(150)
         .dimension(dateDimension)
-        .group(referredGroup,'National Staff')
+        .group(nationalStaffGroup,'National Staff')
         .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
         .rangeChart(timecount_chart)
         .elasticY(true)
         .renderArea(true)       
-        .stack(surgicalMinorGroup,'International Staff',function(d){
+        .stack(internationalStaffGroup,'National + International Staff',function(d){
             return d.value;
         })  
         .brushOn(false)
-        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .legend(dc.legend().x($('#time_count').width()-250).y(0).gap(5))
         .xAxis().ticks(8);
 timestaff_chart.yAxis().ticks(6);
 
