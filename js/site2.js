@@ -26,7 +26,7 @@ var surgicalMinorGroup = dateDimension.group().reduceSum(function(d) {return d.S
 var surgicalMajorGroup = dateDimension.group().reduceSum(function(d) {return d.Surgical_Major;});
 var birthsGroup = dateDimension.group().reduceSum(function(d) {return d.Number_of_births;});
 var internationalStaffGroup = dateDimension.group().reduceSum(function(d) {return d.Number_of_international_staff;});
-var nationalStaffGroup = orgDimension.group().reduceSum(function(d) {return d.Number_of_national_staff;});
+var nationalStaffGroup = dateDimension.group().reduceSum(function(d) {return d.Number_of_national_staff;});
 
 var outAll = cf.groupAll().reduceSum(function(d){ return d.OPD; });
 var inAll = cf.groupAll().reduceSum(function(d){ return d.IPD; });
@@ -90,12 +90,12 @@ timestaff_chart
         .width($('#time_count').width())
         .height(150)
         .dimension(dateDimension)
-        .group(referredGroup,'National Staff')
+        .group(nationalStaffGroup,'National Staff')
         .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
         .rangeChart(timecount_chart)
         .elasticY(true)
         .renderArea(true)       
-        .stack(surgicalMinorGroup,'International Staff',function(d){
+        .stack(internationalStaffGroup,'International Staff',function(d){
             return d.value;
         })  
         .brushOn(false)
