@@ -45,11 +45,11 @@ timecount_chart
         .group(ipdGroup, "In Patients")
         .renderArea(true)
         .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
-        .stack(opdGroup,"Out Patients",function(d){
+        .stack(opdGroup,"In + Out Patients",function(d){
             return d.value;
         })
         .yAxisLabel("",5)
-        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .legend(dc.legend().x($('#time_count').width()-250).y(0).gap(5))
         .xAxis().ticks(8);
 timecount_chart.yAxis().ticks(6);
 
@@ -62,14 +62,14 @@ timesurgery_chart
         .rangeChart(timecount_chart)
         .elasticY(true)
         .renderArea(true)       
-        .stack(surgicalMinorGroup,"Surgical Minor",function(d){
+        .stack(surgicalMinorGroup,"Referred + Surgical Minor",function(d){
             return d.value;
         })
-        .stack(surgicalMajorGroup,"Surgical Major",function(d){
+        .stack(surgicalMajorGroup,"Referred + Surgical Minor + Surgical Major",function(d){
             return d.value;
         })        
         .brushOn(false)
-        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .legend(dc.legend().x($('#time_count').width()-250).y(0).gap(5))
         .xAxis().ticks(8);
 
 timebirths_chart
@@ -82,7 +82,7 @@ timebirths_chart
         .elasticY(true)
         .renderArea(true)        
         .brushOn(false)
-        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .legend(dc.legend().x($('#time_count').width()-250).y(0).gap(5))
         .xAxis().ticks(8);
 timebirths_chart.yAxis().ticks(5);
 
@@ -95,11 +95,11 @@ timestaff_chart
         .rangeChart(timecount_chart)
         .elasticY(true)
         .renderArea(true)       
-        .stack(internationalStaffGroup,'International Staff',function(d){
+        .stack(internationalStaffGroup,'National + International Staff',function(d){
             return d.value;
         })  
         .brushOn(false)
-        .legend(dc.legend().x($('#time_count').width()-150).y(0).gap(5))
+        .legend(dc.legend().x($('#time_count').width()-250).y(0).gap(5))
         .xAxis().ticks(8);
 timestaff_chart.yAxis().ticks(6);
 
