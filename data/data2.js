@@ -1285,7 +1285,7 @@ var data = [
   },
   {
     "Date":"2015-06-12",
-    "RC_Org":"No_data",
+    "RC_Org":"No data",
     "OPD":65,
     "IPD":1,
     "referred":0,
@@ -1309,7 +1309,7 @@ var data = [
   },
   {
     "Date":"2015-06-13",
-    "RC_Org":"No_data",
+    "RC_Org":"No data",
     "OPD":8,
     "IPD":0,
     "referred":0,
@@ -1855,6 +1855,30 @@ var data = [
     "referred":1,
     "Surgical_Major":0,
     "Surgical_Minor":1,
+    "Number_of_births":0,
+    "Number_of_international_staff":16,
+    "Number_of_national_staff":29
+  },
+  {
+    "Date":"2015-07-02",
+    "RC_Org":"Japanese",
+    "OPD":154,
+    "IPD":0,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":2,
+    "Number_of_births":0,
+    "Number_of_international_staff":16,
+    "Number_of_national_staff":8
+  },
+  {
+    "Date":"2015-07-03",
+    "RC_Org":"Canadian Red Cross",
+    "OPD":52,
+    "IPD":2,
+    "referred":0,
+    "Surgical_Major":2,
+    "Surgical_Minor":0,
     "Number_of_births":0,
     "Number_of_international_staff":16,
     "Number_of_national_staff":29
