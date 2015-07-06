@@ -1,5 +1,5 @@
 var colors = ['#F44336','#673AB7','#009688','#FFEB3B','#FF9800','#9E9E9E'];  
-var scale_maxDate =new Date(2015, 6, 03);
+var scale_maxDate =new Date(2015, 6, 05);
 
 var timecount_chart = dc.lineChart("#time_count");
 var timestats1_chart = dc.compositeChart("#time_stats");
@@ -144,6 +144,7 @@ dc.dataCount('#poutotal')
         this._focusCharts = chartlist; // only needed to support the getter above
         this.on('filtered', function (range_chart) {
             if (!range_chart.filter()) {
+                console.log('cehck');
                 dc.events.trigger(function () {
                     chartlist.forEach(function(focus_chart) {
                         focus_chart.x().domain(focus_chart.xOriginalDomain());

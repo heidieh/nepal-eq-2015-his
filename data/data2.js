@@ -979,9 +979,9 @@ var data = [
     "referred":1,
     "Surgical_Major":0,
     "Surgical_Minor":6,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-06-04",
@@ -1285,18 +1285,6 @@ var data = [
   },
   {
     "Date":"2015-06-12",
-    "RC_Org":"No data",
-    "OPD":65,
-    "IPD":1,
-    "referred":0,
-    "Surgical_Major":1,
-    "Surgical_Minor":1,
-    "Number_of_births":0,
-    "Number_of_international_staff":19,
-    "Number_of_national_staff":25
-  },
-  {
-    "Date":"2015-06-12",
     "RC_Org":"Japanese",
     "OPD":157,
     "IPD":0,
@@ -1306,18 +1294,6 @@ var data = [
     "Number_of_births":0,
     "Number_of_international_staff":17,
     "Number_of_national_staff":8
-  },
-  {
-    "Date":"2015-06-13",
-    "RC_Org":"No data",
-    "OPD":8,
-    "IPD":0,
-    "referred":0,
-    "Surgical_Major":0,
-    "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":19,
-    "Number_of_national_staff":25
   },
   {
     "Date":"2015-06-13",
@@ -1474,18 +1450,6 @@ var data = [
     "Number_of_births":1,
     "Number_of_international_staff":31,
     "Number_of_national_staff":27
-  },
-  {
-    "Date":"2015-06-17",
-    "RC_Org":"Canadian Red Cross",
-    "OPD":32,
-    "IPD":2,
-    "referred":0,
-    "Surgical_Major":0,
-    "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
   },
   {
     "Date":"2015-06-19",
@@ -1882,5 +1846,29 @@ var data = [
     "Number_of_births":0,
     "Number_of_international_staff":16,
     "Number_of_national_staff":29
+  },
+  {
+    "Date":"2015-07-04",
+    "RC_Org":"Canadian Red Cross",
+    "OPD":15,
+    "IPD":1,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":27,
+    "Number_of_national_staff":29
+  },
+  {
+    "Date":"2015-07-05",
+    "RC_Org":"Canadian Red Cross",
+    "OPD":58,
+    "IPD":2,
+    "referred":2,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":1,
+    "Number_of_international_staff":27,
+    "Number_of_national_staff":29
   }
-]
+];
