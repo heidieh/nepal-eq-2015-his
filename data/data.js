@@ -122,7 +122,7 @@ var data = [
   },
   {
     "date":"2015-05-10",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":3,
@@ -133,7 +133,7 @@ var data = [
   },
   {
     "date":"2015-05-11",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -144,7 +144,7 @@ var data = [
   },
   {
     "date":"2015-05-12",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":1,
@@ -177,7 +177,7 @@ var data = [
   },
   {
     "date":"2015-05-13",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":3,
@@ -232,7 +232,7 @@ var data = [
   },
   {
     "date":"2015-05-14",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":3,
     "ari":0,
@@ -276,7 +276,7 @@ var data = [
   },
   {
     "date":"2015-05-15",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":3,
@@ -309,7 +309,7 @@ var data = [
   },
   {
     "date":"2015-05-17",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":2,
@@ -353,7 +353,7 @@ var data = [
   },
   {
     "date":"2015-05-18",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":1,
     "trauma":0,
     "ari":4,
@@ -397,7 +397,7 @@ var data = [
   },
   {
     "date":"2015-05-19",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":3,
@@ -551,7 +551,7 @@ var data = [
   },
   {
     "date":"2015-05-26",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":2,
@@ -584,7 +584,7 @@ var data = [
   },
   {
     "date":"2015-05-27",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":null,
@@ -595,7 +595,7 @@ var data = [
   },
   {
     "date":"2015-05-22",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":1,
@@ -606,7 +606,7 @@ var data = [
   },
   {
     "date":"2015-05-23",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -617,7 +617,7 @@ var data = [
   },
   {
     "date":"2015-05-25",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":3,
@@ -650,7 +650,7 @@ var data = [
   },
   {
     "date":"2015-05-28",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -683,7 +683,7 @@ var data = [
   },
   {
     "date":"2015-05-29",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":3,
@@ -705,7 +705,7 @@ var data = [
   },
   {
     "date":"2015-05-30",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -749,7 +749,7 @@ var data = [
   },
   {
     "date":"2015-05-31",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -793,7 +793,7 @@ var data = [
   },
   {
     "date":"2015-06-01",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":2,
@@ -837,7 +837,7 @@ var data = [
   },
   {
     "date":"2015-06-02",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":3,
@@ -870,7 +870,7 @@ var data = [
   },
   {
     "date":"2015-06-03",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":1,
@@ -925,7 +925,7 @@ var data = [
   },
   {
     "date":"2015-06-04",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":3,
@@ -958,7 +958,7 @@ var data = [
   },
   {
     "date":"2015-06-05",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":2,
@@ -980,7 +980,7 @@ var data = [
   },
   {
     "date":"2015-06-06",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -991,7 +991,7 @@ var data = [
   },
   {
     "date":"2015-06-07",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":1,
@@ -1057,7 +1057,7 @@ var data = [
   },
   {
     "date":"2015-06-08",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":2,
@@ -1090,7 +1090,7 @@ var data = [
   },
   {
     "date":"2015-06-09",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":1,
@@ -1134,7 +1134,7 @@ var data = [
   },
   {
     "date":"2015-06-10",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -1145,7 +1145,7 @@ var data = [
   },
   {
     "date":"2015-06-11",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -1174,6 +1174,17 @@ var data = [
     "awd":6,
     "bloody_dia":1,
     "pou":3,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-06-12",
+    "rc":"",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":0,
     "Under_5":"Yes"
   },
   {
@@ -1211,7 +1222,7 @@ var data = [
   },
   {
     "date":"2015-06-14",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":1,
@@ -1233,7 +1244,7 @@ var data = [
   },
   {
     "date":"2015-06-15",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -1266,7 +1277,7 @@ var data = [
   },
   {
     "date":"2015-06-16",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":2,
@@ -1299,7 +1310,7 @@ var data = [
   },
   {
     "date":"2015-06-19",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":2,
@@ -1310,7 +1321,7 @@ var data = [
   },
   {
     "date":"2015-06-18",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":2,
@@ -1321,24 +1332,13 @@ var data = [
   },
   {
     "date":"2015-06-17",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":2,
     "awd":0,
     "bloody_dia":0,
     "pou":0,
-    "Under_5":"Yes"
-  },
-  {
-    "date":"2015-06-17",
-    "rc":"Canadian Red Cross",
-    "deaths":0,
-    "trauma":null,
-    "ari":null,
-    "awd":null,
-    "bloody_dia":null,
-    "pou":null,
     "Under_5":"Yes"
   },
   {
@@ -1387,7 +1387,7 @@ var data = [
   },
   {
     "date":"2015-06-20",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -1409,7 +1409,7 @@ var data = [
   },
   {
     "date":"2015-06-21",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":1,
@@ -1431,7 +1431,7 @@ var data = [
   },
   {
     "date":"2015-06-22",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":3,
@@ -1475,7 +1475,7 @@ var data = [
   },
   {
     "date":"2015-06-23",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":2,
@@ -1497,7 +1497,7 @@ var data = [
   },
   {
     "date":"2015-06-24",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":10,
@@ -1530,7 +1530,7 @@ var data = [
   },
   {
     "date":"2015-06-25",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":3,
@@ -1541,7 +1541,7 @@ var data = [
   },
   {
     "date":"2015-06-26",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":1,
@@ -1552,7 +1552,7 @@ var data = [
   },
   {
     "date":"2015-06-27",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -1563,7 +1563,7 @@ var data = [
   },
   {
     "date":"2015-06-28",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":3,
@@ -1607,7 +1607,7 @@ var data = [
   },
   {
     "date":"2015-06-29",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":4,
@@ -1629,7 +1629,7 @@ var data = [
   },
   {
     "date":"2015-06-30",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":1,
@@ -1651,7 +1651,7 @@ var data = [
   },
   {
     "date":"2015-07-01",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":4,
@@ -1673,7 +1673,7 @@ var data = [
   },
   {
     "date":"2015-07-02",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":4,
@@ -1695,7 +1695,7 @@ var data = [
   },
   {
     "date":"2015-07-03",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":3,
@@ -1706,7 +1706,7 @@ var data = [
   },
   {
     "date":"2015-07-04",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -1717,13 +1717,134 @@ var data = [
   },
   {
     "date":"2015-07-05",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":3,
     "awd":0,
     "bloody_dia":1,
     "pou":1,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-06",
+    "rc":"Canadian RC",
+    "deaths":0,
+    "trauma":0,
+    "ari":2,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":2,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-05",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":1,
+    "ari":1,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":5,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-03",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":1,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":4,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-06",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":2,
+    "ari":2,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-06",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":0,
+    "ari":9,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-07",
+    "rc":"Canadian RC",
+    "deaths":0,
+    "trauma":0,
+    "ari":5,
+    "awd":3,
+    "bloody_dia":1,
+    "pou":1,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-07",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":0,
+    "ari":2,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":2,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-08",
+    "rc":"Canadian RC",
+    "deaths":0,
+    "trauma":0,
+    "ari":4,
+    "awd":4,
+    "bloody_dia":1,
+    "pou":2,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-08",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":1,
+    "ari":4,
+    "awd":3,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-07",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":0,
+    "ari":1,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-04",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
     "Under_5":"Yes"
   },
   {
@@ -1849,7 +1970,7 @@ var data = [
   },
   {
     "date":"2015-05-10",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":3,
     "ari":2,
@@ -1860,7 +1981,7 @@ var data = [
   },
   {
     "date":"2015-05-11",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":6,
     "ari":7,
@@ -1871,7 +1992,7 @@ var data = [
   },
   {
     "date":"2015-05-12",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":9,
@@ -1904,7 +2025,7 @@ var data = [
   },
   {
     "date":"2015-05-13",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":5,
     "ari":7,
@@ -1959,7 +2080,7 @@ var data = [
   },
   {
     "date":"2015-05-14",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":4,
     "ari":5,
@@ -2003,7 +2124,7 @@ var data = [
   },
   {
     "date":"2015-05-15",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":8,
     "ari":3,
@@ -2036,7 +2157,7 @@ var data = [
   },
   {
     "date":"2015-05-17",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":5,
     "ari":4,
@@ -2080,7 +2201,7 @@ var data = [
   },
   {
     "date":"2015-05-18",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":5,
     "ari":14,
@@ -2124,7 +2245,7 @@ var data = [
   },
   {
     "date":"2015-05-19",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":5,
     "ari":3,
@@ -2278,7 +2399,7 @@ var data = [
   },
   {
     "date":"2015-05-26",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":3,
     "ari":4,
@@ -2311,7 +2432,7 @@ var data = [
   },
   {
     "date":"2015-05-27",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":11,
     "ari":null,
@@ -2322,7 +2443,7 @@ var data = [
   },
   {
     "date":"2015-05-22",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":4,
@@ -2333,7 +2454,7 @@ var data = [
   },
   {
     "date":"2015-05-23",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":2,
     "ari":1,
@@ -2344,7 +2465,7 @@ var data = [
   },
   {
     "date":"2015-05-25",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":2,
     "ari":3,
@@ -2377,7 +2498,7 @@ var data = [
   },
   {
     "date":"2015-05-28",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":3,
     "ari":0,
@@ -2410,7 +2531,7 @@ var data = [
   },
   {
     "date":"2015-05-29",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":1,
     "trauma":7,
     "ari":1,
@@ -2432,7 +2553,7 @@ var data = [
   },
   {
     "date":"2015-05-30",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":2,
@@ -2476,7 +2597,7 @@ var data = [
   },
   {
     "date":"2015-05-31",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":6,
     "ari":7,
@@ -2520,7 +2641,7 @@ var data = [
   },
   {
     "date":"2015-06-01",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":2,
     "ari":0,
@@ -2564,7 +2685,7 @@ var data = [
   },
   {
     "date":"2015-06-02",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":2,
     "ari":7,
@@ -2597,7 +2718,7 @@ var data = [
   },
   {
     "date":"2015-06-03",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":12,
     "ari":2,
@@ -2652,7 +2773,7 @@ var data = [
   },
   {
     "date":"2015-06-04",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":3,
     "ari":4,
@@ -2685,7 +2806,7 @@ var data = [
   },
   {
     "date":"2015-06-05",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":5,
@@ -2707,7 +2828,7 @@ var data = [
   },
   {
     "date":"2015-06-06",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":3,
     "ari":0,
@@ -2718,7 +2839,7 @@ var data = [
   },
   {
     "date":"2015-06-07",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":3,
     "ari":4,
@@ -2784,7 +2905,7 @@ var data = [
   },
   {
     "date":"2015-06-08",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":3,
@@ -2817,7 +2938,7 @@ var data = [
   },
   {
     "date":"2015-06-09",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":2,
@@ -2861,7 +2982,7 @@ var data = [
   },
   {
     "date":"2015-06-10",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":2,
     "ari":1,
@@ -2872,7 +2993,7 @@ var data = [
   },
   {
     "date":"2015-06-11",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":5,
     "ari":0,
@@ -2905,6 +3026,17 @@ var data = [
   },
   {
     "date":"2015-06-12",
+    "rc":"",
+    "deaths":0,
+    "trauma":5,
+    "ari":0,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-12",
     "rc":"Japanese",
     "deaths":0,
     "trauma":43,
@@ -2912,6 +3044,17 @@ var data = [
     "awd":8,
     "bloody_dia":0,
     "pou":6,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-06-13",
+    "rc":"",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":1,
     "Under_5":"No"
   },
   {
@@ -2938,7 +3081,7 @@ var data = [
   },
   {
     "date":"2015-06-14",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":0,
@@ -2960,7 +3103,7 @@ var data = [
   },
   {
     "date":"2015-06-15",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":5,
@@ -2993,7 +3136,7 @@ var data = [
   },
   {
     "date":"2015-06-16",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":0,
@@ -3026,7 +3169,7 @@ var data = [
   },
   {
     "date":"2015-06-19",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":2,
@@ -3037,7 +3180,7 @@ var data = [
   },
   {
     "date":"2015-06-18",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":1,
@@ -3048,24 +3191,13 @@ var data = [
   },
   {
     "date":"2015-06-17",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":5,
     "awd":2,
     "bloody_dia":1,
     "pou":1,
-    "Under_5":"No"
-  },
-  {
-    "date":"2015-06-17",
-    "rc":"Canadian Red Cross",
-    "deaths":0,
-    "trauma":null,
-    "ari":null,
-    "awd":null,
-    "bloody_dia":null,
-    "pou":null,
     "Under_5":"No"
   },
   {
@@ -3114,7 +3246,7 @@ var data = [
   },
   {
     "date":"2015-06-20",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":1,
@@ -3136,7 +3268,7 @@ var data = [
   },
   {
     "date":"2015-06-21",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":13,
@@ -3158,7 +3290,7 @@ var data = [
   },
   {
     "date":"2015-06-22",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":2,
@@ -3202,7 +3334,7 @@ var data = [
   },
   {
     "date":"2015-06-23",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":3,
@@ -3224,7 +3356,7 @@ var data = [
   },
   {
     "date":"2015-06-24",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":0,
@@ -3257,7 +3389,7 @@ var data = [
   },
   {
     "date":"2015-06-25",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":2,
     "ari":4,
@@ -3268,7 +3400,7 @@ var data = [
   },
   {
     "date":"2015-06-26",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":2,
     "ari":0,
@@ -3279,7 +3411,7 @@ var data = [
   },
   {
     "date":"2015-06-27",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":2,
     "ari":0,
@@ -3290,7 +3422,7 @@ var data = [
   },
   {
     "date":"2015-06-28",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":12,
     "ari":3,
@@ -3334,7 +3466,7 @@ var data = [
   },
   {
     "date":"2015-06-29",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":6,
     "ari":3,
@@ -3356,7 +3488,7 @@ var data = [
   },
   {
     "date":"2015-06-30",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":3,
     "ari":3,
@@ -3378,7 +3510,7 @@ var data = [
   },
   {
     "date":"2015-07-01",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":2,
     "ari":1,
@@ -3400,7 +3532,7 @@ var data = [
   },
   {
     "date":"2015-07-02",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":5,
     "ari":4,
@@ -3422,7 +3554,7 @@ var data = [
   },
   {
     "date":"2015-07-03",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":1,
     "ari":3,
@@ -3433,7 +3565,7 @@ var data = [
   },
   {
     "date":"2015-07-04",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":4,
     "ari":1,
@@ -3444,13 +3576,134 @@ var data = [
   },
   {
     "date":"2015-07-05",
-    "rc":"Canadian Red Cross",
+    "rc":"Canadian RC",
     "deaths":0,
     "trauma":0,
     "ari":6,
     "awd":0,
     "bloody_dia":0,
     "pou":2,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-06",
+    "rc":"Canadian RC",
+    "deaths":0,
+    "trauma":9,
+    "ari":8,
+    "awd":3,
+    "bloody_dia":1,
+    "pou":5,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-05",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":25,
+    "ari":10,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":4,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-03",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":14,
+    "ari":6,
+    "awd":3,
+    "bloody_dia":1,
+    "pou":5,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-06",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":11,
+    "ari":5,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":3,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-06",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":17,
+    "ari":3,
+    "awd":2,
+    "bloody_dia":1,
+    "pou":2,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-07",
+    "rc":"Canadian RC",
+    "deaths":0,
+    "trauma":3,
+    "ari":3,
+    "awd":0,
+    "bloody_dia":1,
+    "pou":2,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-07",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":30,
+    "ari":5,
+    "awd":3,
+    "bloody_dia":0,
+    "pou":5,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-08",
+    "rc":"Canadian RC",
+    "deaths":0,
+    "trauma":6,
+    "ari":9,
+    "awd":1,
+    "bloody_dia":1,
+    "pou":0,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-08",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":17,
+    "ari":3,
+    "awd":1,
+    "bloody_dia":4,
+    "pou":9,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-07",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":29,
+    "ari":4,
+    "awd":2,
+    "bloody_dia":2,
+    "pou":2,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-04",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
     "Under_5":"No"
   }
 ];
