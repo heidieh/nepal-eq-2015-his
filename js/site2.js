@@ -1,5 +1,5 @@
-var colors = ['#F44336','#673AB7','#009688','#FFEB3B','#FF9800','#9E9E9E'];  
-var scale_maxDate = new Date(2015, 6, 03);
+var colors = ['#F44336','#673AB7','#009688','#FFEB3B','#FF9800','#9E9E9E','#2196F3','#795548'];  
+var scale_maxDate = new Date(2015, 6, 12);
 
 var timecount_chart = dc.lineChart("#time_count");
 var timesurgery_chart = dc.lineChart("#time_surgery");
@@ -10,7 +10,6 @@ var org_chart = dc.rowChart("#rc_org");
     var dateFormat = d3.time.format("%Y-%m-%d");
     data.forEach(function (e) {
         e.Date = dateFormat.parse(e.Date);
-        console.log(e.Date);
     });
 
 var cf = crossfilter(data);
@@ -38,6 +37,18 @@ var nationalAll = cf.groupAll().reduceSum(function(d){ return d.Number_of_intern
 var internationalAll = cf.groupAll().reduceSum(function(d){ return d.Number_of_national_staff; });
 
 
+var inPatientChart = dc.lineChart(timecount_chart)
+    .group(ipdGroup,'In Patients')
+    .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
+    .colors(colors[0]);
+
+var outPatientChart = dc.lineChart(timecount_chart)
+    .group(opdGroup,'Out Patients')
+    .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
+    .colors(colors[1]);
+
+//bug in dc.js about filtering composite charts.  Cannot fix quickly so removing filter       
+
 timecount_chart
         .width($('#time_count').width())
         .height(150)
@@ -45,29 +56,41 @@ timecount_chart
         .group(ipdGroup, "In Patients")
         .renderArea(true)
         .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
-        .stack(opdGroup,"In + Out Patients",function(d){
+        .stack(opdGroup,"Out Patients",function(d){
             return d.value;
         })
+        //.compose([
+        //    inPatientChart,outPatientChart
+        //])
         .yAxisLabel("",5)
+        .brushOn(true)
         .legend(dc.legend().x($('#time_count').width()-250).y(0).gap(5))
         .xAxis().ticks(8);
+
 timecount_chart.yAxis().ticks(6);
+
 
 timesurgery_chart
         .width($('#time_count').width())
         .height(150)
         .dimension(dateDimension)
-        .group(referredGroup,"Referred")
+        //.group(referredGroup,"Referred")
+        .group(surgicalMinorGroup,"Surgical Minor")
         .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
         .rangeChart(timecount_chart)
         .elasticY(true)
         .renderArea(true)       
-        .stack(surgicalMinorGroup,"Referred + Surgical Minor",function(d){
+        //.stack(surgicalMinorGroup,"Surgical Minor",function(d){
+        //    return d.value;
+        //})
+        .stack(surgicalMajorGroup,"Surgical Major",function(d){
             return d.value;
         })
-        .stack(surgicalMajorGroup,"Referred + Surgical Minor + Surgical Major",function(d){
-            return d.value;
-        })        
+        //.compose([
+        //    dc.lineChart(timesurgery_chart).group(referredGroup,'Referred').colors(colors[2]),
+        //    dc.lineChart(timesurgery_chart).group(surgicalMinorGroup,'Minor Surgery').colors(colors[3]),
+        //    dc.lineChart(timesurgery_chart).group(surgicalMajorGroup,'Major Surgery').colors(colors[4]),            
+        //])                
         .brushOn(false)
         .legend(dc.legend().x($('#time_count').width()-250).y(0).gap(5))
         .xAxis().ticks(8);
@@ -77,6 +100,7 @@ timebirths_chart
         .height(150)
         .dimension(dateDimension)
         .group(birthsGroup, 'Births')
+        .colors(colors[7])
         .x(d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]))
         .rangeChart(timecount_chart)
         .elasticY(true)
@@ -95,9 +119,13 @@ timestaff_chart
         .rangeChart(timecount_chart)
         .elasticY(true)
         .renderArea(true)       
-        .stack(internationalStaffGroup,'National + International Staff',function(d){
+        .stack(internationalStaffGroup,'International Staff',function(d){
             return d.value;
-        })  
+        })
+        //.compose([
+        //    dc.lineChart(timestaff_chart).group(internationalStaffGroup,'International Staff').colors(colors[5]),
+        //    dc.lineChart(timestaff_chart).group(nationalStaffGroup,'National Staff').colors(colors[6]),           
+        //])           
         .brushOn(false)
         .legend(dc.legend().x($('#time_count').width()-250).y(0).gap(5))
         .xAxis().ticks(8);
@@ -156,13 +184,14 @@ dc.dataCount('#birthstotal')
         }
         return false;
     }
-
+    console.log(timecount_chart);
     timecount_chart.focusCharts = function (chartlist) {
         if (!arguments.length) {
             return this._focusCharts;
         }
         this._focusCharts = chartlist; // only needed to support the getter above
         this.on('filtered', function (range_chart) {
+            console.log('check');
             if (!range_chart.filter()) {
                 dc.events.trigger(function () {
                     chartlist.forEach(function(focus_chart) {
