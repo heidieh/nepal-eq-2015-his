@@ -2314,5 +2314,41 @@ var data = [
     "Number_of_births":1,
     "Number_of_international_staff":13,
     "Number_of_national_staff":11
+  },
+  {
+    "Date":"2015-07-15",
+    "RC_Org":"NorCross",
+    "OPD":105,
+    "IPD":8,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":4,
+    "Number_of_births":0,
+    "Number_of_international_staff":21,
+    "Number_of_national_staff":88
+  },
+  {
+    "Date":"2015-07-16",
+    "RC_Org":"NorCross",
+    "OPD":92,
+    "IPD":5,
+    "referred":1,
+    "Surgical_Major":0,
+    "Surgical_Minor":5,
+    "Number_of_births":0,
+    "Number_of_international_staff":21,
+    "Number_of_national_staff":88
+  },
+  {
+    "Date":"2015-07-17",
+    "RC_Org":"Japanese",
+    "OPD":73,
+    "IPD":2,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":3,
+    "Number_of_births":0,
+    "Number_of_international_staff":13,
+    "Number_of_national_staff":12
   }
 ]
