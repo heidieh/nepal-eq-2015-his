@@ -38,6 +38,11 @@ var bloodydiaAll = cf.groupAll().reduceSum(function(d){ return d.bloody_dia; });
 
 var xScaleRange = d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]);
 
+function formatDate(value) {
+   var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+   return monthNames[value.getMonth()] + " " + value.getDate();
+}
+
 timecount_chart
         .width($('#time_count').width())
         .height(150)
@@ -148,12 +153,21 @@ dc.dataCount('#poutotal')
                 dc.events.trigger(function () {
                     chartlist.forEach(function(focus_chart) {
                         focus_chart.x().domain(focus_chart.xOriginalDomain());
+                        $('.datefilter').html(" ");
                     });
                 });
             } else chartlist.forEach(function(focus_chart) {
                 if (!rangesEqual(range_chart.filter(), focus_chart.filter())) {
                     dc.events.trigger(function () {
                         focus_chart.focus(range_chart.filter());
+                        date_range = range_chart.filter();						
+			var from_date = new Date(date_range[0])
+			var to_date = formatDate(date_range[1])						
+			if (from_date.getHours()!=0 || from_date.getMinutes()!=0 || from_date.getSeconds()!=0) {    //if not midnight, add 1 day to from date
+				from_date.setDate(from_date.getDate()+1);
+			}  
+			from_date = formatDate(from_date)
+			$('.datefilter').html(from_date + " - " + to_date);
                     });
                 }
             });
