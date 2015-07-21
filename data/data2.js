@@ -2458,5 +2458,29 @@ var data = [
     "Number_of_births":2,
     "Number_of_international_staff":21,
     "Number_of_national_staff":78
+  },
+  {
+    "Date":"2015-07-20",
+    "RC_Org":"Canadian Red Cross",
+    "OPD":34,
+    "IPD":6,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":17,
+    "Number_of_national_staff":32
+  },
+  {
+    "Date":"2015-07-20",
+    "RC_Org":"NorCross",
+    "OPD":82,
+    "IPD":6,
+    "referred":0,
+    "Surgical_Major":1,
+    "Surgical_Minor":4,
+    "Number_of_births":2,
+    "Number_of_international_staff":19,
+    "Number_of_national_staff":76
   }
 ]

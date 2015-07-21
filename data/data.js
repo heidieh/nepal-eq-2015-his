@@ -2255,6 +2255,28 @@ var data = [
     "Under_5":"Yes"
   },
   {
+    "date":"2015-07-20",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":2,
+    "ari":1,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-20",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":4,
+    "ari":4,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
     "date":"2015-05-05",
     "rc":"NorCross",
     "deaths":0,
@@ -4507,6 +4529,28 @@ var data = [
     "awd":1,
     "bloody_dia":0,
     "pou":5,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-20",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":4,
+    "ari":0,
+    "awd":3,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-20",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":8,
+    "ari":8,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":3,
     "Under_5":"No"
   }
 ]
