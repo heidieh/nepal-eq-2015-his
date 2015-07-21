@@ -39,6 +39,7 @@
             </div>
             <div class="row">
                 <div class="col-md-7">
+                    <p>Date | Current filter: <span class="datefilter"></span></p>
                     <div class="his_chart" id="time_count"><h4>Cases Per Day - Deaths, Trauma & Diseases (Filterable)</h4></div>
                     <div class="his_chart" id="time_stats"><h4>Deaths and Trauma</h4></div>
                     <div class="his_chart" id="time_stats2"><h4>ARI, AWD, Bloody Diarrhea, POU</h4></div>
@@ -50,6 +51,8 @@
                 <div class="col-md-2">
                     <div class="his_chart">
                         <a class="reset btn btn-primary btn-sm" id="reset" href="javascript:dc.filterAll();dc.redrawAll();">Reset All</a>
+                    	<h4>Dates filtered: </h4>
+			<span class="datefilter date_headline"></span>
                     </div>                      
                     <div class="his_chart" id="deathstotal">
                         <h4>Deaths</h4>

@@ -39,6 +39,7 @@
             </div>
             <div class="row">
                 <div class="col-md-9">
+                    <p>Date | Current filter: <span class="datefilter"></span></p>
                     <div class="his_chart" id="time_count"><h4>Patients per day (Filterable)</h4></div>
                     <div class="his_chart" id="time_staff"><h4>Staff</h4></div>
                     <div class="his_chart" id="time_surgery"><h4>Surgery</h4></div>                    
@@ -49,7 +50,9 @@
                     <div class="row">
                         <div class="his_chart">
                             <a class="reset btn btn-primary btn-sm" id="reset" href="javascript:dc.filterAll();dc.redrawAll();">Reset All</a>
-                        </div>                   
+                        </div>         
+                        <h4>Dates filtered: </h4>
+			<span class="datefilter date_headline"></span>
                         <div class="his_chart" id="rc_org"><h4>Red Cross Unit (Filterable)</h4><p>One or more RCs can be chosen</p></div> 
                     </div>
                     <div class="row">
