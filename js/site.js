@@ -41,7 +41,7 @@ var xScaleRange = d3.time.scale().domain([new Date(2015, 4, 1), scale_maxDate]);
 function formatDate(value) {
    var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
    return monthNames[value.getMonth()] + " " + value.getDate();
-}
+};
 
 timecount_chart
         .width($('#time_count').width())
