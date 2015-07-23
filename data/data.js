@@ -2277,6 +2277,72 @@ var data = [
     "Under_5":"Yes"
   },
   {
+    "date":"2015-07-21",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":3,
+    "ari":3,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-21",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":0,
+    "ari":6,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":2,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-22",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":0,
+    "ari":4,
+    "awd":1,
+    "bloody_dia":1,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-21",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-20",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":2,
+    "ari":1,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":4,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-22",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":1,
+    "ari":1,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"Yes"
+  },
+  {
     "date":"2015-05-05",
     "rc":"NorCross",
     "deaths":0,
@@ -4551,6 +4617,72 @@ var data = [
     "awd":2,
     "bloody_dia":0,
     "pou":3,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-21",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":22,
+    "ari":8,
+    "awd":2,
+    "bloody_dia":1,
+    "pou":1,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-21",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":4,
+    "ari":1,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-22",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":13,
+    "ari":1,
+    "awd":5,
+    "bloody_dia":1,
+    "pou":3,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-21",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":4,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-20",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":15,
+    "ari":7,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":11,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-22",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":20,
+    "ari":11,
+    "awd":5,
+    "bloody_dia":0,
+    "pou":5,
     "Under_5":"No"
   }
 ]
