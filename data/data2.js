@@ -2482,5 +2482,77 @@ var data = [
     "Number_of_births":2,
     "Number_of_international_staff":19,
     "Number_of_national_staff":76
+  },
+  {
+    "Date":"2015-07-21",
+    "RC_Org":"NorCross",
+    "OPD":100,
+    "IPD":6,
+    "referred":2,
+    "Surgical_Major":0,
+    "Surgical_Minor":3,
+    "Number_of_births":0,
+    "Number_of_international_staff":18,
+    "Number_of_national_staff":76
+  },
+  {
+    "Date":"2015-07-21",
+    "RC_Org":"Canadian Red Cross",
+    "OPD":208,
+    "IPD":1,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":1,
+    "Number_of_births":0,
+    "Number_of_international_staff":16,
+    "Number_of_national_staff":32
+  },
+  {
+    "Date":"2015-07-22",
+    "RC_Org":"Canadian Red Cross",
+    "OPD":67,
+    "IPD":4,
+    "referred":8,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":16,
+    "Number_of_national_staff":32
+  },
+  {
+    "Date":"2015-07-21",
+    "RC_Org":"Japanese",
+    "OPD":10,
+    "IPD":1,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":4,
+    "Number_of_births":1,
+    "Number_of_international_staff":13,
+    "Number_of_national_staff":10
+  },
+  {
+    "Date":"2015-07-20",
+    "RC_Org":"Japanese",
+    "OPD":125,
+    "IPD":4,
+    "referred":1,
+    "Surgical_Major":0,
+    "Surgical_Minor":9,
+    "Number_of_births":1,
+    "Number_of_international_staff":13,
+    "Number_of_national_staff":12
+  },
+  {
+    "Date":"2015-07-22",
+    "RC_Org":"Japanese",
+    "OPD":145,
+    "IPD":1,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":1,
+    "Number_of_births":1,
+    "Number_of_international_staff":13,
+    "Number_of_national_staff":13
   }
 ]
