@@ -2554,5 +2554,41 @@ var data = [
     "Number_of_births":1,
     "Number_of_international_staff":13,
     "Number_of_national_staff":13
+  },
+  {
+    "Date":"2015-07-23",
+    "RC_Org":"Japanese",
+    "OPD":152,
+    "IPD":2,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":2,
+    "Number_of_international_staff":13,
+    "Number_of_national_staff":12
+  },
+  {
+    "Date":"2015-07-23",
+    "RC_Org":"Canadian Red Cross",
+    "OPD":54,
+    "IPD":0,
+    "referred":2,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":16,
+    "Number_of_national_staff":32
+  },
+  {
+    "Date":"2015-07-24",
+    "RC_Org":"Canadian Red Cross",
+    "OPD":60,
+    "IPD":1,
+    "referred":0,
+    "Surgical_Major":1,
+    "Surgical_Minor":0,
+    "Number_of_births":1,
+    "Number_of_international_staff":16,
+    "Number_of_national_staff":32
   }
 ]
