@@ -2354,6 +2354,17 @@ var data = [
     "Under_5":"Yes"
   },
   {
+    "date":"2015-07-24",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
     "date":"2015-07-23",
     "rc":"Canadian Red Cross",
     "deaths":0,
@@ -2372,6 +2383,127 @@ var data = [
     "ari":6,
     "awd":1,
     "bloody_dia":2,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-24",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":1,
+    "ari":2,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":4,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-24",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":1,
+    "ari":2,
+    "awd":0,
+    "bloody_dia":1,
+    "pou":4,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-22",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":1,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-25",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":1,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-23",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":1,
+    "ari":3,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":2,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-24",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":2,
+    "ari":1,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-25",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":1,
+    "ari":1,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-26",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":0,
+    "ari":7,
+    "awd":2,
+    "bloody_dia":2,
+    "pou":3,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-24",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":1,
+    "ari":2,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":4,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-26",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":0,
+    "ari":3,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":4,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-26",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
     "pou":0,
     "Under_5":"Yes"
   },
@@ -4730,6 +4862,17 @@ var data = [
     "Under_5":"No"
   },
   {
+    "date":"2015-07-24",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":8,
+    "ari":1,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"No"
+  },
+  {
     "date":"2015-07-23",
     "rc":"Canadian Red Cross",
     "deaths":0,
@@ -4749,6 +4892,127 @@ var data = [
     "awd":0,
     "bloody_dia":2,
     "pou":2,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-24",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":18,
+    "ari":13,
+    "awd":4,
+    "bloody_dia":1,
+    "pou":15,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-24",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":18,
+    "ari":13,
+    "awd":4,
+    "bloody_dia":0,
+    "pou":15,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-22",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":14,
+    "ari":15,
+    "awd":2,
+    "bloody_dia":1,
+    "pou":5,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-25",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-23",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":17,
+    "ari":12,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-24",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":20,
+    "ari":10,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":7,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-25",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":3,
+    "ari":3,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":3,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-26",
+    "rc":"Canadian Red Cross",
+    "deaths":0,
+    "trauma":4,
+    "ari":6,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":5,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-24",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":18,
+    "ari":13,
+    "awd":4,
+    "bloody_dia":1,
+    "pou":15,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-26",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":26,
+    "ari":8,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":18,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-26",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":8,
+    "ari":4,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":1,
     "Under_5":"No"
   }
 ]
