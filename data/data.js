@@ -2497,11 +2497,77 @@ var data = [
     "Under_5":"Yes"
   },
   {
+    "date":"2015-07-27",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":3,
+    "ari":8,
+    "awd":0,
+    "bloody_dia":2,
+    "pou":21,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-27",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":3,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":4,
+    "Under_5":"Yes"
+  },
+  {
     "date":"2015-07-26",
     "rc":"Singati",
     "deaths":0,
     "trauma":0,
     "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-27",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":0,
+    "ari":2,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-26",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":1,
+    "ari":3,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-27",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-07-28",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":0,
+    "ari":1,
     "awd":0,
     "bloody_dia":0,
     "pou":0,
@@ -5005,6 +5071,28 @@ var data = [
     "Under_5":"No"
   },
   {
+    "date":"2015-07-27",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":22,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-27",
+    "rc":"Japanese",
+    "deaths":0,
+    "trauma":22,
+    "ari":8,
+    "awd":0,
+    "bloody_dia":2,
+    "pou":10,
+    "Under_5":"No"
+  },
+  {
     "date":"2015-07-26",
     "rc":"Singati",
     "deaths":0,
@@ -5013,6 +5101,50 @@ var data = [
     "awd":2,
     "bloody_dia":0,
     "pou":1,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-27",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":16,
+    "ari":3,
+    "awd":4,
+    "bloody_dia":0,
+    "pou":1,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-26",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":16,
+    "ari":13,
+    "awd":1,
+    "bloody_dia":1,
+    "pou":2,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-27",
+    "rc":"NorCross",
+    "deaths":0,
+    "trauma":15,
+    "ari":7,
+    "awd":1,
+    "bloody_dia":0,
+    "pou":4,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-07-28",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":2,
+    "ari":2,
+    "awd":3,
+    "bloody_dia":0,
+    "pou":0,
     "Under_5":"No"
   }
 ]
