@@ -7,9 +7,9 @@ var data = [
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":1,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-04",
@@ -19,9 +19,9 @@ var data = [
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":1,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-06",
@@ -31,9 +31,9 @@ var data = [
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-07",
@@ -43,9 +43,9 @@ var data = [
     "referred":0,
     "Surgical_Major":2,
     "Surgical_Minor":3,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-08",
@@ -55,9 +55,9 @@ var data = [
     "referred":0,
     "Surgical_Major":2,
     "Surgical_Minor":5,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-09",
@@ -67,9 +67,9 @@ var data = [
     "referred":2,
     "Surgical_Major":5,
     "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-09",
@@ -79,9 +79,9 @@ var data = [
     "referred":0,
     "Surgical_Major":2,
     "Surgical_Minor":5,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-10",
@@ -91,9 +91,9 @@ var data = [
     "referred":1,
     "Surgical_Major":0,
     "Surgical_Minor":5,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-11",
@@ -103,9 +103,9 @@ var data = [
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":5,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-08",
@@ -115,9 +115,9 @@ var data = [
     "referred":0,
     "Surgical_Major":10,
     "Surgical_Minor":20,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-12",
@@ -133,39 +133,39 @@ var data = [
   },
   {
     "Date":"2015-05-10",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":30,
     "IPD":4,
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-11",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":25,
     "IPD":1,
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":1,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-12",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":87,
     "IPD":1,
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-12",
@@ -175,9 +175,9 @@ var data = [
     "referred":1,
     "Surgical_Major":0,
     "Surgical_Minor":1,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-12",
@@ -187,21 +187,21 @@ var data = [
     "referred":0,
     "Surgical_Major":2,
     "Surgical_Minor":8,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-13",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":56,
     "IPD":1,
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-13",
@@ -211,9 +211,9 @@ var data = [
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":1,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-13",
@@ -235,9 +235,9 @@ var data = [
     "referred":1,
     "Surgical_Major":0,
     "Surgical_Minor":1,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-14",
@@ -253,15 +253,15 @@ var data = [
   },
   {
     "Date":"2015-05-14",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":66,
     "IPD":1,
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-15",
@@ -283,9 +283,9 @@ var data = [
     "referred":1,
     "Surgical_Major":0,
     "Surgical_Minor":2,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-15",
@@ -295,21 +295,21 @@ var data = [
     "referred":1,
     "Surgical_Major":0,
     "Surgical_Minor":2,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-15",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":56,
     "IPD":2,
     "referred":0,
     "Surgical_Major":1,
     "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-16",
@@ -331,21 +331,21 @@ var data = [
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":1,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-17",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":53,
     "IPD":0,
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-17",
@@ -367,9 +367,9 @@ var data = [
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":3,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-18",
@@ -385,15 +385,15 @@ var data = [
   },
   {
     "Date":"2015-05-18",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":113,
     "IPD":3,
     "referred":0,
     "Surgical_Major":1,
     "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-18",
@@ -433,15 +433,15 @@ var data = [
   },
   {
     "Date":"2015-05-19",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":48,
     "IPD":1,
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-05-20",
@@ -601,7 +601,7 @@ var data = [
   },
   {
     "Date":"2015-05-26",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":55,
     "IPD":0,
     "referred":0,
@@ -637,7 +637,7 @@ var data = [
   },
   {
     "Date":"2015-05-27",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":70,
     "IPD":1,
     "referred":3,
@@ -649,7 +649,7 @@ var data = [
   },
   {
     "Date":"2015-05-22",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":76,
     "IPD":0,
     "referred":0,
@@ -661,7 +661,7 @@ var data = [
   },
   {
     "Date":"2015-05-23",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":16,
     "IPD":0,
     "referred":0,
@@ -673,7 +673,7 @@ var data = [
   },
   {
     "Date":"2015-05-25",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":80,
     "IPD":4,
     "referred":0,
@@ -709,7 +709,7 @@ var data = [
   },
   {
     "Date":"2015-05-28",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":59,
     "IPD":5,
     "referred":4,
@@ -745,7 +745,7 @@ var data = [
   },
   {
     "Date":"2015-05-29",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":33,
     "IPD":2,
     "referred":1,
@@ -769,7 +769,7 @@ var data = [
   },
   {
     "Date":"2015-05-30",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":10,
     "IPD":1,
     "referred":0,
@@ -817,7 +817,7 @@ var data = [
   },
   {
     "Date":"2015-05-31",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":67,
     "IPD":1,
     "referred":0,
@@ -865,7 +865,7 @@ var data = [
   },
   {
     "Date":"2015-06-01",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":38,
     "IPD":3,
     "referred":1,
@@ -913,7 +913,7 @@ var data = [
   },
   {
     "Date":"2015-06-02",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":62,
     "IPD":3,
     "referred":2,
@@ -949,7 +949,7 @@ var data = [
   },
   {
     "Date":"2015-06-03",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":94,
     "IPD":0,
     "referred":2,
@@ -979,9 +979,9 @@ var data = [
     "referred":1,
     "Surgical_Major":0,
     "Surgical_Minor":6,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-06-04",
@@ -1009,7 +1009,7 @@ var data = [
   },
   {
     "Date":"2015-06-04",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":52,
     "IPD":3,
     "referred":0,
@@ -1045,7 +1045,7 @@ var data = [
   },
   {
     "Date":"2015-06-05",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":116,
     "IPD":1,
     "referred":0,
@@ -1069,7 +1069,7 @@ var data = [
   },
   {
     "Date":"2015-06-06",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":41,
     "IPD":0,
     "referred":1,
@@ -1081,7 +1081,7 @@ var data = [
   },
   {
     "Date":"2015-06-07",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":65,
     "IPD":1,
     "referred":0,
@@ -1153,7 +1153,7 @@ var data = [
   },
   {
     "Date":"2015-06-08",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":81,
     "IPD":0,
     "referred":0,
@@ -1189,7 +1189,7 @@ var data = [
   },
   {
     "Date":"2015-06-09",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":52,
     "IPD":2,
     "referred":2,
@@ -1237,7 +1237,7 @@ var data = [
   },
   {
     "Date":"2015-06-10",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":82,
     "IPD":1,
     "referred":2,
@@ -1249,7 +1249,7 @@ var data = [
   },
   {
     "Date":"2015-06-11",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":47,
     "IPD":2,
     "referred":3,
@@ -1285,7 +1285,7 @@ var data = [
   },
   {
     "Date":"2015-06-12",
-    "RC_Org":"No data",
+    "RC_Org":"",
     "OPD":65,
     "IPD":1,
     "referred":0,
@@ -1309,7 +1309,7 @@ var data = [
   },
   {
     "Date":"2015-06-13",
-    "RC_Org":"No data",
+    "RC_Org":"",
     "OPD":8,
     "IPD":0,
     "referred":0,
@@ -1345,7 +1345,7 @@ var data = [
   },
   {
     "Date":"2015-06-14",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":58,
     "IPD":3,
     "referred":2,
@@ -1369,7 +1369,7 @@ var data = [
   },
   {
     "Date":"2015-06-15",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":43,
     "IPD":3,
     "referred":2,
@@ -1405,7 +1405,7 @@ var data = [
   },
   {
     "Date":"2015-06-16",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":63,
     "IPD":3,
     "referred":0,
@@ -1441,7 +1441,7 @@ var data = [
   },
   {
     "Date":"2015-06-19",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":52,
     "IPD":2,
     "referred":1,
@@ -1453,7 +1453,7 @@ var data = [
   },
   {
     "Date":"2015-06-18",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":71,
     "IPD":2,
     "referred":1,
@@ -1465,7 +1465,7 @@ var data = [
   },
   {
     "Date":"2015-06-17",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":32,
     "IPD":2,
     "referred":1,
@@ -1477,15 +1477,15 @@ var data = [
   },
   {
     "Date":"2015-06-17",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":32,
     "IPD":2,
-    "referred":0,
-    "Surgical_Major":0,
-    "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "referred":null,
+    "Surgical_Major":null,
+    "Surgical_Minor":null,
+    "Number_of_births":null,
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-06-19",
@@ -1537,7 +1537,7 @@ var data = [
   },
   {
     "Date":"2015-06-20",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":19,
     "IPD":2,
     "referred":1,
@@ -1561,7 +1561,7 @@ var data = [
   },
   {
     "Date":"2015-06-21",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":100,
     "IPD":2,
     "referred":0,
@@ -1585,7 +1585,7 @@ var data = [
   },
   {
     "Date":"2015-06-22",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":39,
     "IPD":1,
     "referred":1,
@@ -1633,7 +1633,7 @@ var data = [
   },
   {
     "Date":"2015-06-23",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":65,
     "IPD":1,
     "referred":0,
@@ -1657,7 +1657,7 @@ var data = [
   },
   {
     "Date":"2015-06-24",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":77,
     "IPD":2,
     "referred":0,
@@ -1693,7 +1693,7 @@ var data = [
   },
   {
     "Date":"2015-06-25",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":50,
     "IPD":1,
     "referred":0,
@@ -1705,7 +1705,7 @@ var data = [
   },
   {
     "Date":"2015-06-26",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":34,
     "IPD":2,
     "referred":0,
@@ -1717,7 +1717,7 @@ var data = [
   },
   {
     "Date":"2015-06-27",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":9,
     "IPD":1,
     "referred":1,
@@ -1729,7 +1729,7 @@ var data = [
   },
   {
     "Date":"2015-06-28",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":60,
     "IPD":3,
     "referred":0,
@@ -1777,7 +1777,7 @@ var data = [
   },
   {
     "Date":"2015-06-29",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":62,
     "IPD":0,
     "referred":0,
@@ -1801,7 +1801,7 @@ var data = [
   },
   {
     "Date":"2015-06-30",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":54,
     "IPD":2,
     "referred":1,
@@ -1825,7 +1825,7 @@ var data = [
   },
   {
     "Date":"2015-07-01",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":42,
     "IPD":0,
     "referred":0,
@@ -1849,7 +1849,7 @@ var data = [
   },
   {
     "Date":"2015-07-02",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":49,
     "IPD":3,
     "referred":1,
@@ -1873,7 +1873,7 @@ var data = [
   },
   {
     "Date":"2015-07-03",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":52,
     "IPD":2,
     "referred":0,
@@ -1885,7 +1885,7 @@ var data = [
   },
   {
     "Date":"2015-07-04",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":15,
     "IPD":1,
     "referred":0,
@@ -1897,7 +1897,7 @@ var data = [
   },
   {
     "Date":"2015-07-05",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":58,
     "IPD":2,
     "referred":2,
@@ -1909,7 +1909,7 @@ var data = [
   },
   {
     "Date":"2015-07-06",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":77,
     "IPD":0,
     "referred":2,
@@ -1969,7 +1969,7 @@ var data = [
   },
   {
     "Date":"2015-07-07",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":53,
     "IPD":0,
     "referred":1,
@@ -1993,7 +1993,7 @@ var data = [
   },
   {
     "Date":"2015-07-08",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":74,
     "IPD":2,
     "referred":1,
@@ -2053,7 +2053,7 @@ var data = [
   },
   {
     "Date":"2015-07-09",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":45,
     "IPD":2,
     "referred":0,
@@ -2113,7 +2113,7 @@ var data = [
   },
   {
     "Date":"2015-07-10",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":56,
     "IPD":3,
     "referred":0,
@@ -2161,7 +2161,7 @@ var data = [
   },
   {
     "Date":"2015-07-11",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":6,
     "IPD":2,
     "referred":0,
@@ -2173,7 +2173,7 @@ var data = [
   },
   {
     "Date":"2015-07-12",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":72,
     "IPD":0,
     "referred":1,
@@ -2191,7 +2191,7 @@ var data = [
     "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":3,
-    "Number_of_births":0,
+    "Number_of_births":null,
     "Number_of_international_staff":15,
     "Number_of_national_staff":4
   },
@@ -2209,7 +2209,7 @@ var data = [
   },
   {
     "Date":"2015-07-13",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":48,
     "IPD":2,
     "referred":1,
@@ -2245,7 +2245,7 @@ var data = [
   },
   {
     "Date":"2015-07-14",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":53,
     "IPD":1,
     "referred":2,
@@ -2269,7 +2269,7 @@ var data = [
   },
   {
     "Date":"2015-07-15",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":46,
     "IPD":0,
     "referred":1,
@@ -2353,7 +2353,7 @@ var data = [
   },
   {
     "Date":"2015-07-17",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":19,
     "IPD":1,
     "referred":2,
@@ -2377,7 +2377,7 @@ var data = [
   },
   {
     "Date":"2015-07-18",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":12,
     "IPD":0,
     "referred":1,
@@ -2396,8 +2396,8 @@ var data = [
     "Surgical_Major":0,
     "Surgical_Minor":0,
     "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
+    "Number_of_international_staff":null,
+    "Number_of_national_staff":null
   },
   {
     "Date":"2015-07-18",
@@ -2413,7 +2413,7 @@ var data = [
   },
   {
     "Date":"2015-07-19",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":30,
     "IPD":1,
     "referred":0,
@@ -2461,7 +2461,7 @@ var data = [
   },
   {
     "Date":"2015-07-20",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":34,
     "IPD":6,
     "referred":0,
@@ -2497,7 +2497,7 @@ var data = [
   },
   {
     "Date":"2015-07-21",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":208,
     "IPD":1,
     "referred":0,
@@ -2509,7 +2509,7 @@ var data = [
   },
   {
     "Date":"2015-07-22",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":67,
     "IPD":4,
     "referred":8,
@@ -2570,6 +2570,18 @@ var data = [
   {
     "Date":"2015-07-24",
     "RC_Org":"Singati",
+    "OPD":49,
+    "IPD":0,
+    "referred":1,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":8,
+    "Number_of_national_staff":23
+  },
+  {
+    "Date":"2015-07-24",
+    "RC_Org":"Singati",
     "OPD":66,
     "IPD":0,
     "referred":1,
@@ -2581,7 +2593,7 @@ var data = [
   },
   {
     "Date":"2015-07-23",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":54,
     "IPD":0,
     "referred":2,
@@ -2593,7 +2605,7 @@ var data = [
   },
   {
     "Date":"2015-07-24",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":60,
     "IPD":1,
     "referred":0,
@@ -2641,7 +2653,7 @@ var data = [
   },
   {
     "Date":"2015-07-25",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":7,
     "IPD":0,
     "referred":1,
@@ -2689,7 +2701,7 @@ var data = [
   },
   {
     "Date":"2015-07-26",
-    "RC_Org":"Canadian Red Cross",
+    "RC_Org":"Canadian",
     "OPD":71,
     "IPD":0,
     "referred":0,
@@ -2745,7 +2757,7 @@ var data = [
     "Surgical_Minor":4,
     "Number_of_births":0,
     "Number_of_international_staff":13,
-    "Number_of_national_staff":11
+    "Number_of_national_staff":1
   },
   {
     "Date":"2015-07-26",
@@ -2806,5 +2818,149 @@ var data = [
     "Number_of_births":0,
     "Number_of_international_staff":8,
     "Number_of_national_staff":25
+  },
+  {
+    "Date":"2015-07-28",
+    "RC_Org":"Japanese",
+    "OPD":146,
+    "IPD":2,
+    "referred":2,
+    "Surgical_Major":0,
+    "Surgical_Minor":4,
+    "Number_of_births":2,
+    "Number_of_international_staff":13,
+    "Number_of_national_staff":12
+  },
+  {
+    "Date":"2015-07-28",
+    "RC_Org":"NorCross",
+    "OPD":129,
+    "IPD":8,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":5,
+    "Number_of_births":0,
+    "Number_of_international_staff":20,
+    "Number_of_national_staff":70
+  },
+  {
+    "Date":"2015-07-29",
+    "RC_Org":"Singati",
+    "OPD":55,
+    "IPD":0,
+    "referred":2,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":7,
+    "Number_of_national_staff":25
+  },
+  {
+    "Date":"2015-07-29",
+    "RC_Org":"Japanese",
+    "OPD":126,
+    "IPD":3,
+    "referred":1,
+    "Surgical_Major":0,
+    "Surgical_Minor":3,
+    "Number_of_births":3,
+    "Number_of_international_staff":13,
+    "Number_of_national_staff":11
+  },
+  {
+    "Date":"2015-07-27",
+    "RC_Org":"Canadian",
+    "OPD":46,
+    "IPD":0,
+    "referred":1,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":10,
+    "Number_of_national_staff":null
+  },
+  {
+    "Date":"2015-07-29",
+    "RC_Org":"NorCross",
+    "OPD":140,
+    "IPD":4,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":1,
+    "Number_of_births":0,
+    "Number_of_international_staff":19,
+    "Number_of_national_staff":76
+  },
+  {
+    "Date":"2015-07-28",
+    "RC_Org":"Canadian",
+    "OPD":40,
+    "IPD":1,
+    "referred":1,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":10,
+    "Number_of_national_staff":null
+  },
+  {
+    "Date":"2015-07-29",
+    "RC_Org":"Canadian",
+    "OPD":32,
+    "IPD":3,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":10,
+    "Number_of_national_staff":null
+  },
+  {
+    "Date":"2015-07-30",
+    "RC_Org":"Singati",
+    "OPD":48,
+    "IPD":0,
+    "referred":2,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":1,
+    "Number_of_international_staff":5,
+    "Number_of_national_staff":29
+  },
+  {
+    "Date":"2015-07-30",
+    "RC_Org":"Japanese",
+    "OPD":104,
+    "IPD":3,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":1,
+    "Number_of_births":1,
+    "Number_of_international_staff":13,
+    "Number_of_national_staff":11
+  },
+  {
+    "Date":"2015-06-30",
+    "RC_Org":"NorCross",
+    "OPD":121,
+    "IPD":2,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":1,
+    "Number_of_births":1,
+    "Number_of_international_staff":19,
+    "Number_of_national_staff":76
+  },
+  {
+    "Date":"2015-07-31",
+    "RC_Org":"Singati",
+    "OPD":64,
+    "IPD":0,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":7,
+    "Number_of_national_staff":29
   }
-]
+];
