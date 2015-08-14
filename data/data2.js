@@ -133,7 +133,7 @@ var data = [
   },
   {
     "Date":"2015-05-10",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":30,
     "IPD":4,
     "referred":0,
@@ -145,7 +145,7 @@ var data = [
   },
   {
     "Date":"2015-05-11",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":25,
     "IPD":1,
     "referred":0,
@@ -157,7 +157,7 @@ var data = [
   },
   {
     "Date":"2015-05-12",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":87,
     "IPD":1,
     "referred":0,
@@ -193,7 +193,7 @@ var data = [
   },
   {
     "Date":"2015-05-13",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":56,
     "IPD":1,
     "referred":0,
@@ -253,7 +253,7 @@ var data = [
   },
   {
     "Date":"2015-05-14",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":66,
     "IPD":1,
     "referred":0,
@@ -289,19 +289,7 @@ var data = [
   },
   {
     "Date":"2015-05-15",
-    "RC_Org":"Japanese",
-    "OPD":170,
-    "IPD":0,
-    "referred":1,
-    "Surgical_Major":0,
-    "Surgical_Minor":2,
-    "Number_of_births":null,
-    "Number_of_international_staff":null,
-    "Number_of_national_staff":null
-  },
-  {
-    "Date":"2015-05-15",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":56,
     "IPD":2,
     "referred":0,
@@ -337,7 +325,7 @@ var data = [
   },
   {
     "Date":"2015-05-17",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":53,
     "IPD":0,
     "referred":0,
@@ -385,7 +373,7 @@ var data = [
   },
   {
     "Date":"2015-05-18",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":113,
     "IPD":3,
     "referred":0,
@@ -433,7 +421,7 @@ var data = [
   },
   {
     "Date":"2015-05-19",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":48,
     "IPD":1,
     "referred":0,
@@ -601,7 +589,7 @@ var data = [
   },
   {
     "Date":"2015-05-26",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":55,
     "IPD":0,
     "referred":0,
@@ -637,7 +625,7 @@ var data = [
   },
   {
     "Date":"2015-05-27",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":70,
     "IPD":1,
     "referred":3,
@@ -649,7 +637,7 @@ var data = [
   },
   {
     "Date":"2015-05-22",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":76,
     "IPD":0,
     "referred":0,
@@ -661,7 +649,7 @@ var data = [
   },
   {
     "Date":"2015-05-23",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":16,
     "IPD":0,
     "referred":0,
@@ -673,7 +661,7 @@ var data = [
   },
   {
     "Date":"2015-05-25",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":80,
     "IPD":4,
     "referred":0,
@@ -709,7 +697,7 @@ var data = [
   },
   {
     "Date":"2015-05-28",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":59,
     "IPD":5,
     "referred":4,
@@ -745,7 +733,7 @@ var data = [
   },
   {
     "Date":"2015-05-29",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":33,
     "IPD":2,
     "referred":1,
@@ -769,7 +757,7 @@ var data = [
   },
   {
     "Date":"2015-05-30",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":10,
     "IPD":1,
     "referred":0,
@@ -817,7 +805,7 @@ var data = [
   },
   {
     "Date":"2015-05-31",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":67,
     "IPD":1,
     "referred":0,
@@ -865,7 +853,7 @@ var data = [
   },
   {
     "Date":"2015-06-01",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":38,
     "IPD":3,
     "referred":1,
@@ -913,7 +901,7 @@ var data = [
   },
   {
     "Date":"2015-06-02",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":62,
     "IPD":3,
     "referred":2,
@@ -949,7 +937,7 @@ var data = [
   },
   {
     "Date":"2015-06-03",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":94,
     "IPD":0,
     "referred":2,
@@ -1009,7 +997,7 @@ var data = [
   },
   {
     "Date":"2015-06-04",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":52,
     "IPD":3,
     "referred":0,
@@ -1045,7 +1033,7 @@ var data = [
   },
   {
     "Date":"2015-06-05",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":116,
     "IPD":1,
     "referred":0,
@@ -1069,7 +1057,7 @@ var data = [
   },
   {
     "Date":"2015-06-06",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":41,
     "IPD":0,
     "referred":1,
@@ -1081,7 +1069,7 @@ var data = [
   },
   {
     "Date":"2015-06-07",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":65,
     "IPD":1,
     "referred":0,
@@ -1153,7 +1141,7 @@ var data = [
   },
   {
     "Date":"2015-06-08",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":81,
     "IPD":0,
     "referred":0,
@@ -1189,7 +1177,7 @@ var data = [
   },
   {
     "Date":"2015-06-09",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":52,
     "IPD":2,
     "referred":2,
@@ -1237,7 +1225,7 @@ var data = [
   },
   {
     "Date":"2015-06-10",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":82,
     "IPD":1,
     "referred":2,
@@ -1249,7 +1237,7 @@ var data = [
   },
   {
     "Date":"2015-06-11",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":47,
     "IPD":2,
     "referred":3,
@@ -1345,7 +1333,7 @@ var data = [
   },
   {
     "Date":"2015-06-14",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":58,
     "IPD":3,
     "referred":2,
@@ -1369,7 +1357,7 @@ var data = [
   },
   {
     "Date":"2015-06-15",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":43,
     "IPD":3,
     "referred":2,
@@ -1405,7 +1393,7 @@ var data = [
   },
   {
     "Date":"2015-06-16",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":63,
     "IPD":3,
     "referred":0,
@@ -1441,7 +1429,7 @@ var data = [
   },
   {
     "Date":"2015-06-19",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":52,
     "IPD":2,
     "referred":1,
@@ -1453,7 +1441,7 @@ var data = [
   },
   {
     "Date":"2015-06-18",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":71,
     "IPD":2,
     "referred":1,
@@ -1465,7 +1453,7 @@ var data = [
   },
   {
     "Date":"2015-06-17",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":32,
     "IPD":2,
     "referred":1,
@@ -1477,7 +1465,7 @@ var data = [
   },
   {
     "Date":"2015-06-17",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":32,
     "IPD":2,
     "referred":null,
@@ -1537,7 +1525,7 @@ var data = [
   },
   {
     "Date":"2015-06-20",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":19,
     "IPD":2,
     "referred":1,
@@ -1561,7 +1549,7 @@ var data = [
   },
   {
     "Date":"2015-06-21",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":100,
     "IPD":2,
     "referred":0,
@@ -1585,7 +1573,7 @@ var data = [
   },
   {
     "Date":"2015-06-22",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":39,
     "IPD":1,
     "referred":1,
@@ -1633,7 +1621,7 @@ var data = [
   },
   {
     "Date":"2015-06-23",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":65,
     "IPD":1,
     "referred":0,
@@ -1657,7 +1645,7 @@ var data = [
   },
   {
     "Date":"2015-06-24",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":77,
     "IPD":2,
     "referred":0,
@@ -1693,7 +1681,7 @@ var data = [
   },
   {
     "Date":"2015-06-25",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":50,
     "IPD":1,
     "referred":0,
@@ -1705,7 +1693,7 @@ var data = [
   },
   {
     "Date":"2015-06-26",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":34,
     "IPD":2,
     "referred":0,
@@ -1717,7 +1705,7 @@ var data = [
   },
   {
     "Date":"2015-06-27",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":9,
     "IPD":1,
     "referred":1,
@@ -1729,7 +1717,7 @@ var data = [
   },
   {
     "Date":"2015-06-28",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":60,
     "IPD":3,
     "referred":0,
@@ -1777,7 +1765,7 @@ var data = [
   },
   {
     "Date":"2015-06-29",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":62,
     "IPD":0,
     "referred":0,
@@ -1801,7 +1789,7 @@ var data = [
   },
   {
     "Date":"2015-06-30",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":54,
     "IPD":2,
     "referred":1,
@@ -1825,7 +1813,7 @@ var data = [
   },
   {
     "Date":"2015-07-01",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":42,
     "IPD":0,
     "referred":0,
@@ -1849,7 +1837,7 @@ var data = [
   },
   {
     "Date":"2015-07-02",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":49,
     "IPD":3,
     "referred":1,
@@ -1873,7 +1861,7 @@ var data = [
   },
   {
     "Date":"2015-07-03",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":52,
     "IPD":2,
     "referred":0,
@@ -1885,7 +1873,7 @@ var data = [
   },
   {
     "Date":"2015-07-04",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":15,
     "IPD":1,
     "referred":0,
@@ -1897,7 +1885,7 @@ var data = [
   },
   {
     "Date":"2015-07-05",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":58,
     "IPD":2,
     "referred":2,
@@ -1909,7 +1897,7 @@ var data = [
   },
   {
     "Date":"2015-07-06",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":77,
     "IPD":0,
     "referred":2,
@@ -1969,7 +1957,7 @@ var data = [
   },
   {
     "Date":"2015-07-07",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":53,
     "IPD":0,
     "referred":1,
@@ -1993,7 +1981,7 @@ var data = [
   },
   {
     "Date":"2015-07-08",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":74,
     "IPD":2,
     "referred":1,
@@ -2053,7 +2041,7 @@ var data = [
   },
   {
     "Date":"2015-07-09",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":45,
     "IPD":2,
     "referred":0,
@@ -2113,7 +2101,7 @@ var data = [
   },
   {
     "Date":"2015-07-10",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":56,
     "IPD":3,
     "referred":0,
@@ -2161,7 +2149,7 @@ var data = [
   },
   {
     "Date":"2015-07-11",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":6,
     "IPD":2,
     "referred":0,
@@ -2173,7 +2161,7 @@ var data = [
   },
   {
     "Date":"2015-07-12",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":72,
     "IPD":0,
     "referred":1,
@@ -2209,7 +2197,7 @@ var data = [
   },
   {
     "Date":"2015-07-13",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":48,
     "IPD":2,
     "referred":1,
@@ -2245,7 +2233,7 @@ var data = [
   },
   {
     "Date":"2015-07-14",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":53,
     "IPD":1,
     "referred":2,
@@ -2269,7 +2257,7 @@ var data = [
   },
   {
     "Date":"2015-07-15",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":46,
     "IPD":0,
     "referred":1,
@@ -2353,7 +2341,7 @@ var data = [
   },
   {
     "Date":"2015-07-17",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":19,
     "IPD":1,
     "referred":2,
@@ -2377,7 +2365,7 @@ var data = [
   },
   {
     "Date":"2015-07-18",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":12,
     "IPD":0,
     "referred":1,
@@ -2413,7 +2401,7 @@ var data = [
   },
   {
     "Date":"2015-07-19",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":30,
     "IPD":1,
     "referred":0,
@@ -2461,7 +2449,7 @@ var data = [
   },
   {
     "Date":"2015-07-20",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":34,
     "IPD":6,
     "referred":0,
@@ -2497,7 +2485,7 @@ var data = [
   },
   {
     "Date":"2015-07-21",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":208,
     "IPD":1,
     "referred":0,
@@ -2509,7 +2497,7 @@ var data = [
   },
   {
     "Date":"2015-07-22",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":67,
     "IPD":4,
     "referred":8,
@@ -2593,7 +2581,7 @@ var data = [
   },
   {
     "Date":"2015-07-23",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":54,
     "IPD":0,
     "referred":2,
@@ -2605,7 +2593,7 @@ var data = [
   },
   {
     "Date":"2015-07-24",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":60,
     "IPD":1,
     "referred":0,
@@ -2653,7 +2641,7 @@ var data = [
   },
   {
     "Date":"2015-07-25",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":7,
     "IPD":0,
     "referred":1,
@@ -2701,7 +2689,7 @@ var data = [
   },
   {
     "Date":"2015-07-26",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":71,
     "IPD":0,
     "referred":0,
@@ -2869,7 +2857,7 @@ var data = [
   },
   {
     "Date":"2015-07-27",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":46,
     "IPD":0,
     "referred":1,
@@ -2893,7 +2881,7 @@ var data = [
   },
   {
     "Date":"2015-07-28",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":40,
     "IPD":1,
     "referred":1,
@@ -2905,7 +2893,7 @@ var data = [
   },
   {
     "Date":"2015-07-29",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":32,
     "IPD":3,
     "referred":0,
@@ -2989,7 +2977,7 @@ var data = [
   },
   {
     "Date":"2015-08-01",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":28,
     "IPD":0,
     "referred":1,
@@ -3097,7 +3085,7 @@ var data = [
   },
   {
     "Date":"2015-08-01",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":9,
     "IPD":1,
     "referred":0,
@@ -3109,7 +3097,7 @@ var data = [
   },
   {
     "Date":"2015-08-02",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":38,
     "IPD":5,
     "referred":1,
@@ -3121,7 +3109,7 @@ var data = [
   },
   {
     "Date":"2015-08-03",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":55,
     "IPD":1,
     "referred":1,
@@ -3133,7 +3121,7 @@ var data = [
   },
   {
     "Date":"2015-08-04",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":51,
     "IPD":1,
     "referred":2,
@@ -3145,7 +3133,7 @@ var data = [
   },
   {
     "Date":"2015-08-05",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":40,
     "IPD":0,
     "referred":0,
@@ -3217,7 +3205,7 @@ var data = [
   },
   {
     "Date":"2015-08-06",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":61,
     "IPD":0,
     "referred":0,
@@ -3289,7 +3277,7 @@ var data = [
   },
   {
     "Date":"2015-08-07",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":28,
     "IPD":0,
     "referred":0,
@@ -3301,7 +3289,7 @@ var data = [
   },
   {
     "Date":"2015-08-08",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":5,
     "IPD":1,
     "referred":0,
@@ -3313,7 +3301,7 @@ var data = [
   },
   {
     "Date":"2015-08-09",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":41,
     "IPD":3,
     "referred":1,
@@ -3337,7 +3325,7 @@ var data = [
   },
   {
     "Date":"2015-08-10",
-    "RC_Org":"Canadian RC",
+    "RC_Org":"Canadian",
     "OPD":54,
     "IPD":2,
     "referred":0,
@@ -3365,6 +3353,114 @@ var data = [
     "OPD":60,
     "IPD":1,
     "referred":1,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":9,
+    "Number_of_national_staff":30
+  },
+  {
+    "Date":"2015-08-11",
+    "RC_Org":"NorCross",
+    "OPD":90,
+    "IPD":3,
+    "referred":2,
+    "Surgical_Major":0,
+    "Surgical_Minor":5,
+    "Number_of_births":0,
+    "Number_of_international_staff":15,
+    "Number_of_national_staff":76
+  },
+  {
+    "Date":"2015-08-11",
+    "RC_Org":"Canadian",
+    "OPD":40,
+    "IPD":1,
+    "referred":3,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":10,
+    "Number_of_national_staff":29
+  },
+  {
+    "Date":"2015-08-12",
+    "RC_Org":"Singati",
+    "OPD":64,
+    "IPD":1,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":1,
+    "Number_of_births":0,
+    "Number_of_international_staff":9,
+    "Number_of_national_staff":30
+  },
+  {
+    "Date":"2015-08-12",
+    "RC_Org":"Canadian",
+    "OPD":36,
+    "IPD":1,
+    "referred":1,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":10,
+    "Number_of_national_staff":29
+  },
+  {
+    "Date":"2015-08-12",
+    "RC_Org":"NorCross",
+    "OPD":87,
+    "IPD":5,
+    "referred":1,
+    "Surgical_Major":0,
+    "Surgical_Minor":7,
+    "Number_of_births":0,
+    "Number_of_international_staff":16,
+    "Number_of_national_staff":76
+  },
+  {
+    "Date":"2015-08-13",
+    "RC_Org":"Singati",
+    "OPD":68,
+    "IPD":0,
+    "referred":2,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":9,
+    "Number_of_national_staff":30
+  },
+  {
+    "Date":"2015-08-13",
+    "RC_Org":"Canadian",
+    "OPD":48,
+    "IPD":2,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":1,
+    "Number_of_international_staff":10,
+    "Number_of_national_staff":29
+  },
+  {
+    "Date":"2015-08-13",
+    "RC_Org":"NorCross",
+    "OPD":47,
+    "IPD":3,
+    "referred":3,
+    "Surgical_Major":0,
+    "Surgical_Minor":6,
+    "Number_of_births":0,
+    "Number_of_international_staff":15,
+    "Number_of_national_staff":76
+  },
+  {
+    "Date":"2015-08-14",
+    "RC_Org":"Singati",
+    "OPD":50,
+    "IPD":1,
+    "referred":0,
     "Surgical_Major":0,
     "Surgical_Minor":0,
     "Number_of_births":0,
