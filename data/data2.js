@@ -1104,42 +1104,6 @@ var data = [
     "Number_of_national_staff":5
   },
   {
-    "Date":"2015-06-06",
-    "RC_Org":"Japanese",
-    "OPD":0,
-    "IPD":0,
-    "referred":0,
-    "Surgical_Major":0,
-    "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
-  },
-  {
-    "Date":"2015-06-06",
-    "RC_Org":"Japanese",
-    "OPD":0,
-    "IPD":0,
-    "referred":0,
-    "Surgical_Major":0,
-    "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
-  },
-  {
-    "Date":"2015-06-06",
-    "RC_Org":"Japanese",
-    "OPD":0,
-    "IPD":0,
-    "referred":0,
-    "Surgical_Major":0,
-    "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
-  },
-  {
     "Date":"2015-06-08",
     "RC_Org":"Canadian",
     "OPD":81,
@@ -1306,18 +1270,6 @@ var data = [
     "Number_of_births":0,
     "Number_of_international_staff":19,
     "Number_of_national_staff":25
-  },
-  {
-    "Date":"2015-06-13",
-    "RC_Org":"Japanese",
-    "OPD":0,
-    "IPD":0,
-    "referred":0,
-    "Surgical_Major":0,
-    "Surgical_Minor":0,
-    "Number_of_births":0,
-    "Number_of_international_staff":0,
-    "Number_of_national_staff":0
   },
   {
     "Date":"2015-06-14",
@@ -3464,6 +3416,102 @@ var data = [
     "Surgical_Major":0,
     "Surgical_Minor":0,
     "Number_of_births":0,
+    "Number_of_international_staff":9,
+    "Number_of_national_staff":30
+  },
+  {
+    "Date":"2015-08-14",
+    "RC_Org":"Canadian",
+    "OPD":31,
+    "IPD":1,
+    "referred":2,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":10,
+    "Number_of_national_staff":29
+  },
+  {
+    "Date":"2015-08-14",
+    "RC_Org":"NorCross",
+    "OPD":43,
+    "IPD":2,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":9,
+    "Number_of_births":0,
+    "Number_of_international_staff":14,
+    "Number_of_national_staff":75
+  },
+  {
+    "Date":"2015-08-15",
+    "RC_Org":"NorCross",
+    "OPD":26,
+    "IPD":2,
+    "referred":2,
+    "Surgical_Major":0,
+    "Surgical_Minor":1,
+    "Number_of_births":0,
+    "Number_of_international_staff":14,
+    "Number_of_national_staff":75
+  },
+  {
+    "Date":"2015-08-15",
+    "RC_Org":"Canadian",
+    "OPD":5,
+    "IPD":3,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":1,
+    "Number_of_international_staff":10,
+    "Number_of_national_staff":29
+  },
+  {
+    "Date":"2015-08-16",
+    "RC_Org":"Singati",
+    "OPD":56,
+    "IPD":0,
+    "referred":1,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":9,
+    "Number_of_national_staff":30
+  },
+  {
+    "Date":"2015-08-16",
+    "RC_Org":"Canadian",
+    "OPD":48,
+    "IPD":1,
+    "referred":2,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":10,
+    "Number_of_national_staff":29
+  },
+  {
+    "Date":"2015-08-16",
+    "RC_Org":"NorCross",
+    "OPD":12,
+    "IPD":6,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":6,
+    "Number_of_births":0,
+    "Number_of_international_staff":14,
+    "Number_of_national_staff":75
+  },
+  {
+    "Date":"2015-08-17",
+    "RC_Org":"Singati",
+    "OPD":67,
+    "IPD":1,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":1,
     "Number_of_international_staff":9,
     "Number_of_national_staff":30
   }

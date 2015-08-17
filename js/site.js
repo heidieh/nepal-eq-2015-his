@@ -1,5 +1,5 @@
 var colors = ['#F44336','#673AB7','#009688','#FFEB3B','#FF9800','#9E9E9E'];  
-var scale_maxDate =new Date(2015, 7, 14);
+var scale_maxDate =new Date(2015, 7, 18);
 
 var timecount_chart = dc.lineChart("#time_count");
 var timestats1_chart = dc.compositeChart("#time_stats");
@@ -93,6 +93,7 @@ timestats2_chart
 org_chart.width($('#rc_org').width()).height(300)
         .dimension(orgDimension)
         .group(orgGroup)
+        .elasticX(true)
         .xAxis().ticks(5);
 
 under5_chart.width($('#age').width()).height(200)

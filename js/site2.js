@@ -1,5 +1,5 @@
 var colors = ['#F44336','#673AB7','#009688','#FFEB3B','#FF9800','#9E9E9E','#2196F3','#795548'];  
-var scale_maxDate = new Date(2015, 7, 14);
+var scale_maxDate = new Date(2015, 7, 18);
 
 var timecount_chart = dc.lineChart("#time_count");
 var timesurgery_chart = dc.lineChart("#time_surgery");
@@ -139,6 +139,7 @@ timestaff_chart.yAxis().ticks(6);
 org_chart.width($('#rc_org').width()).height(300)
         .dimension(orgDimension)
         .group(orgGroup)
+        .elasticX(true)
         .xAxis().ticks(5);
 
 dc.dataCount('#outtotal')
