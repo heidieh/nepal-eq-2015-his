@@ -1,5 +1,5 @@
 var colors = ['#F44336','#673AB7','#009688','#FFEB3B','#FF9800','#9E9E9E','#2196F3','#795548'];  
-var scale_maxDate = new Date(2015, 7, 18);
+var scale_maxDate = new Date(2015, 7, 21);
 
 var timecount_chart = dc.lineChart("#time_count");
 var timesurgery_chart = dc.lineChart("#time_surgery");
