@@ -3311,6 +3311,50 @@ var data = [
     "Under_5":"Yes"
   },
   {
+    "date":"2015-08-21",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":3,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-08-23",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":0,
+    "ari":1,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":2,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-08-24",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":0,
+    "ari":0,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":0,
+    "Under_5":"Yes"
+  },
+  {
+    "date":"2015-08-25",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":1,
+    "ari":1,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":2,
+    "Under_5":"Yes"
+  },
+  {
     "date":"2015-05-05",
     "rc":"NorCross",
     "deaths":0,
@@ -6619,6 +6663,50 @@ var data = [
     "awd":0,
     "bloody_dia":0,
     "pou":7,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-08-21",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":2,
+    "ari":6,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":2,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-08-23",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":10,
+    "ari":3,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":7,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-08-24",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":3,
+    "ari":3,
+    "awd":2,
+    "bloody_dia":0,
+    "pou":2,
+    "Under_5":"No"
+  },
+  {
+    "date":"2015-08-25",
+    "rc":"Singati",
+    "deaths":0,
+    "trauma":10,
+    "ari":4,
+    "awd":0,
+    "bloody_dia":0,
+    "pou":8,
     "Under_5":"No"
   }
 ];
