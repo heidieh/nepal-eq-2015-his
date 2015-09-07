@@ -1,5 +1,5 @@
 var colors = ['#F44336','#673AB7','#009688','#FFEB3B','#FF9800','#9E9E9E','#2196F3','#795548'];  
-var scale_maxDate = new Date(2015, 6, 28);
+var scale_maxDate = new Date(2015, 8, 5);
 
 var timecount_chart = dc.lineChart("#time_count");
 var timesurgery_chart = dc.lineChart("#time_surgery");
@@ -33,8 +33,8 @@ var referredAll = cf.groupAll().reduceSum(function(d){ return d.referred; });
 var minorAll = cf.groupAll().reduceSum(function(d){ return d.Surgical_Minor; });
 var majorAll = cf.groupAll().reduceSum(function(d){ return d.Surgical_Major; });
 var birthsAll = cf.groupAll().reduceSum(function(d){ return d.Number_of_births; });
-var nationalAll = cf.groupAll().reduceSum(function(d){ return d.Number_of_international_staff; });
-var internationalAll = cf.groupAll().reduceSum(function(d){ return d.Number_of_national_staff; });
+var internationalAll = cf.groupAll().reduceSum(function(d){ return d.Number_of_international_staff; });
+var nationalAll = cf.groupAll().reduceSum(function(d){ return d.Number_of_national_staff; });
 
 
 var inPatientChart = dc.lineChart(timecount_chart)
@@ -139,6 +139,7 @@ timestaff_chart.yAxis().ticks(6);
 org_chart.width($('#rc_org').width()).height(300)
         .dimension(orgDimension)
         .group(orgGroup)
+        .elasticX(true)
         .xAxis().ticks(5);
 
 dc.dataCount('#outtotal')
