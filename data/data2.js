@@ -3958,5 +3958,53 @@ var data = [
     "Number_of_births":0,
     "Number_of_international_staff":7,
     "Number_of_national_staff":28
+  },
+  {
+    "Date":"2015-09-21",
+    "RC_Org":"Singati",
+    "OPD":76,
+    "IPD":0,
+    "referred":2,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":1,
+    "Number_of_international_staff":7,
+    "Number_of_national_staff":28
+  },
+  {
+    "Date":"2015-09-22",
+    "RC_Org":"Singati",
+    "OPD":51,
+    "IPD":0,
+    "referred":2,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":7,
+    "Number_of_national_staff":28
+  },
+  {
+    "Date":"2015-09-26",
+    "RC_Org":"Singati",
+    "OPD":12,
+    "IPD":0,
+    "referred":1,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":7,
+    "Number_of_national_staff":28
+  },
+  {
+    "Date":"2015-09-25",
+    "RC_Org":"Singati",
+    "OPD":29,
+    "IPD":0,
+    "referred":0,
+    "Surgical_Major":0,
+    "Surgical_Minor":0,
+    "Number_of_births":0,
+    "Number_of_international_staff":7,
+    "Number_of_national_staff":28
   }
 ]
